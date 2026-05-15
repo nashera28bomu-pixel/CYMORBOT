@@ -3,53 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cymor 4K Video Upgrader | Ultra-Realistic AI Enhancer</title>
+    <title>Cymor 4K | Ultra-Realistic AI Enhancer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Plus+Jakarta+Sans:wght@300;500;700&display=swap" rel="family">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Plus+Jakarta+Sans:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Cyberpunk Ambient Background Gradients -->
     <div class="bg-glow blue"></div>
     <div class="bg-glow purple"></div>
 
     <main class="app-container">
-        <!-- Header -->
         <header class="main-header">
-            <div class="logo">CYM<span>OR</span> <span class="badge">4K ULTRA</span></div>
-            <p class="subtitle">Next-Gen Local WebGPU Video Super-Resolution Engine</p>
+            <div class="logo">CYMOR<span>4K</span> <span class="badge">4K ULTRA</span></div>
+            <p class="subtitle">AI Video Super-Resolution for Professional Editors</p>
         </header>
 
-        <!-- Main Dashboard Split Grid -->
         <section class="dashboard-grid">
-            
-            <!-- Left Panel: Upload & Controls -->
             <div class="glass-panel control-panel">
                 <div class="drop-zone" id="dropZone">
                     <input type="file" id="fileInput" accept="video/*" hidden>
                     <div class="drop-icon">⚡</div>
-                    <h3>Drag & Drop Video</h3>
-                    <p>Supports MP4, MOV, WebM (Max 4K local export)</p>
-                    <button class="btn-primary" onclick="document.getElementById('fileInput').click()">Browse Files</button>
+                    <h3>Upload Source</h3>
+                    <button class="btn-primary" onclick="document.getElementById('fileInput').click()">Select Video</button>
                 </div>
 
-                <!-- Video Meta & Settings (Hidden until upload) -->
                 <div class="settings-box disabled" id="settingsBox">
-                    <h4 class="section-title">Upscale Configuration</h4>
-                    
                     <div class="meta-row">
                         <span id="fileName">video.mp4</span>
                         <span id="fileSize">0.0 MB</span>
                     </div>
 
                     <div class="control-group">
-                        <label>AI Enhancement Model</label>
+                        <label>AI Model</label>
                         <select id="modelSelect">
-                            <option value="real-esrgan">Cymor Ultra-Realism v3 (Cinematic)</option>
-                            <option value="anime-4k">Anime & Vector Sharpener</option>
-                            <option value="fast-upscale">Bilinear Fast Compute (Low-End Devices)</option>
+                            <option value="ultra">Cymor Ultra-Realism v3 (Cinematic)</option>
+                            <option value="anime">Studio Ghibli Sharpener</option>
                         </select>
                     </div>
 
@@ -57,24 +45,24 @@
                         <label>Target Resolution</label>
                         <div class="radio-tile-group">
                             <label class="radio-tile">
-                                <input type="radio" name="res" value="2k">
-                                <span>2K Quad HD</span>
-                            </label>
-                            <label class="radio-tile">
                                 <input type="radio" name="res" value="4k" checked>
                                 <span>4K Ultra HD</span>
                             </label>
                         </div>
                     </div>
 
-                    <button class="btn-action dynamic-glow" id="startBtn" disabled>Initialize WebGPU Render</button>
+                    <button class="btn-action dynamic-glow" id="startBtn">Initialize WebGPU Render</button>
+                    
+                    <div id="downloadContainer" class="hidden">
+                        <button class="btn-download" id="downloadBtn">
+                            <span>⬇</span> Download Enhanced 4K
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <!-- Right Panel: Live Visual Preview & Comparison -->
             <div class="glass-panel preview-panel">
                 <div class="preview-wrapper">
-                    <!-- Split-screen slider mechanism -->
                     <div class="comparison-slider" id="sliderContainer">
                         <video id="processedVideo" class="video-after" muted loop playsinline></video>
                         <div class="video-before-wrapper" id="beforeWrapper">
@@ -82,14 +70,13 @@
                         </div>
                         <div class="slider-handle" id="sliderHandle"></div>
                         
-                        <span class="view-badge before-badge">Source</span>
-                        <span class="view-badge after-badge">Cymor 4K AI AI</span>
+                        <span class="view-badge before-badge">Original</span>
+                        <span class="view-badge after-badge">Cymor AI 4K</span>
                     </div>
 
-                    <!-- Processing/Progress Overlay -->
                     <div class="processing-overlay hidden" id="processingOverlay">
                         <div class="spinner"></div>
-                        <h3 id="statusText">Allocating WebGPU Shaders...</h3>
+                        <h3 id="statusText">Optimizing Textures...</h3>
                         <div class="progress-container">
                             <div class="progress-bar" id="progressBar"></div>
                         </div>
@@ -97,21 +84,15 @@
                     </div>
                 </div>
 
-                <!-- Live Metrics Footer -->
                 <div class="metrics-bar">
-                    <div class="metric"><span class="label">Engine:</span> <span class="val native">WebGPU Active</span></div>
-                    <div class="metric"><span class="label">VRAM Usage:</span> <span class="val">Dynamic</span></div>
-                    <div class="metric"><span class="label">Server Cost:</span> <span class="val free">$0.00 (Local)</span></div>
+                    <div class="metric"><span class="label">Engine:</span> <span class="val native">WebGPU</span></div>
+                    <div class="metric"><span class="label">Server Cost:</span> <span class="val free">$0.00</span></div>
                 </div>
             </div>
-
         </section>
     </main>
 
-    <!-- Footer Signature -->
-    <footer class="app-footer">
-        Site made by the <span> Legendary Smiley Cymor </span>
-    </footer>
+    <footer class="app-footer">Site made by the Legendary Smiley Cymor</footer>
 
     <script src="script.js"></script>
 </body>
