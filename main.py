@@ -1,8 +1,10 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from moviebox_api.v3 import MovieBox, MovieAuto
+# Corrected Import Path
+from moviebox_api import MovieBox, MovieAuto 
 import uvicorn
 import os
+import asyncio  # Required for the coroutine checks in your routes
 
 app = FastAPI(title="Cymor Movie Hub API")
 
@@ -13,6 +15,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Initialize API
 api = MovieBox()
 
 @app.get("/")
@@ -31,11 +34,9 @@ async def get_trending():
 async def watch_movie(movie_query: str):
     try:
         engine = MovieAuto()
-        # If run() is a standard function, we call it normally. 
-        # If it's async, the await stays.
         result = engine.run(movie_query)
         
-        # Handle both sync and async return types
+        # Check if the result needs to be awaited
         if asyncio.iscoroutine(result):
             movie_data, subtitle_data = await result
         else:
@@ -43,14 +44,14 @@ async def watch_movie(movie_query: str):
         
         return {
             "title": movie_query,
-            "stream_url": movie_data.url,
-            "subtitle_url": subtitle_data.url if subtitle_data else None,
+            "stream_url": getattr(movie_data, 'url', None),
+            "subtitle_url": getattr(subtitle_data, 'url', None) if subtitle_data else None,
             "quality": "HD/1080p",
             "ad_free": True
         }
     except Exception as e:
-        print(f"Error: {e}") # Log error to Render console
-        raise HTTPException(status_code=404, detail="Movie source not found.")
+        print(f"Error: {e}") 
+        raise HTTPException(status_code=404, detail=f"Movie source not found: {str(e)}")
 
 @app.get("/download/{movie_query}")
 async def download_movie(movie_query: str):
@@ -65,13 +66,12 @@ async def download_movie(movie_query: str):
             
         return {
             "title": movie_query,
-            "download_link": movie_data.url,
+            "download_link": getattr(movie_data, 'url', None),
             "instructions": "Pass this link to your frontend downloader component"
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail="Failed to generate link")
 
 if __name__ == "__main__":
-    # Use the port assigned by Render or default to 10000
     port = int(os.environ.get("PORT", 10000))
     uvicorn.run(app, host="0.0.0.0", port=port)
