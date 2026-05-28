@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+moviebox-api
+httpx
+pydantic==2.9.2
+python-multipart
