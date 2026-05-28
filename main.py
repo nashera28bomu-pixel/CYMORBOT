@@ -1,10 +1,11 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-# Corrected Import Path
+# Correct import structure for moviebox-api v0.5.3
+import moviebox_api
 from moviebox_api import MovieBox, MovieAuto 
 import uvicorn
 import os
-import asyncio  # Required for the coroutine checks in your routes
+import asyncio
 
 app = FastAPI(title="Cymor Movie Hub API")
 
@@ -36,7 +37,6 @@ async def watch_movie(movie_query: str):
         engine = MovieAuto()
         result = engine.run(movie_query)
         
-        # Check if the result needs to be awaited
         if asyncio.iscoroutine(result):
             movie_data, subtitle_data = await result
         else:
