@@ -1,14 +1,14 @@
-from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from moviebox_api.v3 import MovieBox, MovieAuto
-import asyncio
+import uvicorn
+import os
 
 app = FastAPI(title="Cymor Movie Hub API")
 
-# Enable CORS so your frontend can call this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # In production, replace with your frontend URL
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -19,24 +19,27 @@ api = MovieBox()
 async def root():
     return {"message": "Cymor Movie Hub API is Online", "status": "Elite"}
 
-# 1. FETCH TRENDING (Netflix-style Slider Data)
 @app.get("/trending")
 async def get_trending():
     try:
-        # Fetching homepage data which includes 'Trending' and 'Recent'
         data = api.homepage()
         return {"results": data}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# 2. STREAMING & SUBTITLES (The "Watch" Button)
 @app.get("/watch/{movie_query}")
 async def watch_movie(movie_query: str):
     try:
         engine = MovieAuto()
-        # auto.run fetches the best source and subtitles automatically
-        # It bypasses ad-heavy web pages to give you direct links
-        movie_data, subtitle_data = await engine.run(movie_query)
+        # If run() is a standard function, we call it normally. 
+        # If it's async, the await stays.
+        result = engine.run(movie_query)
+        
+        # Handle both sync and async return types
+        if asyncio.iscoroutine(result):
+            movie_data, subtitle_data = await result
+        else:
+            movie_data, subtitle_data = result
         
         return {
             "title": movie_query,
@@ -46,35 +49,29 @@ async def watch_movie(movie_query: str):
             "ad_free": True
         }
     except Exception as e:
+        print(f"Error: {e}") # Log error to Render console
         raise HTTPException(status_code=404, detail="Movie source not found.")
 
-# 3. DOWNLOAD WITH PROGRESS (Background Task)
-# Note: On Render Free, large downloads will hit disk limits. 
-# It's better to provide the direct download link to the user.
 @app.get("/download/{movie_query}")
 async def download_movie(movie_query: str):
     try:
         engine = MovieAuto()
-        movie_data, _ = await engine.run(movie_query)
+        result = engine.run(movie_query)
         
+        if asyncio.iscoroutine(result):
+            movie_data, _ = await result
+        else:
+            movie_data, _ = result
+            
         return {
             "title": movie_query,
             "download_link": movie_data.url,
             "instructions": "Pass this link to your frontend downloader component"
         }
     except Exception as e:
-        raise HTTPException(status_code=500, detail="Failed to generate download link")
-
-# 4. MORE LIKE THIS (Recommendations)
-@app.get("/recommendations/{movie_id}")
-async def get_related(movie_id: str):
-    # If the API v3 supports search by ID for related content
-    try:
-        related = api.search(movie_id) # Simplified logic for related search
-        return {"results": related[:10]} # Return top 10 similar
-    except Exception:
-        return {"results": []}
+        raise HTTPException(status_code=500, detail="Failed to generate link")
 
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=10000)
+    # Use the port assigned by Render or default to 10000
+    port = int(os.environ.get("PORT", 10000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
