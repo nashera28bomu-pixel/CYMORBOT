@@ -1,0 +1,412 @@
+{
+  "1": {
+    "name": "Law",
+    "subclusters": {
+      "1A": {
+        "label": "Law",
+        "subjectSlots": ["ENG/KIS", "MAT ALT A/B or any Group II", "any Group III", "any Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "ENG/KIS", "minGrade": "B"}]
+      }
+    }
+  },
+  "2": {
+    "name": "Business, Hospitality, Tourism and Related",
+    "subclusters": {
+      "2A": {
+        "label": "Business/Commerce/HR/Entrepreneurship/IT-Business",
+        "subjectSlots": ["ENG/KIS", "MAT ALT A/B", "any Group II or III", "any Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A/B", "minGrade": "C"}]
+      },
+      "2B": {
+        "label": "Hospitality/Tourism/HR Management/Project Planning",
+        "subjectSlots": ["ENG/KIS", "MAT ALT A/B", "any Group II or III", "any Group II/III/IV/V"],
+        "minimumRequirements": []
+      }
+    }
+  },
+  "3": {
+    "name": "Communication, Media, Languages, Public Relations, International Relations, Film, Graphics",
+    "subclusters": {
+      "3A": {
+        "label": "Communication/Journalism/Media/International Relations",
+        "subjectSlots": ["ENG/KIS", "MAT ALT A/B or any Group II", "any Group III", "any Group II/2nd Group III/IV/V"],
+        "minimumRequirements": [{"subject": "ENG/KIS", "minGrade": "C+"}]
+      },
+      "3B": {
+        "label": "English & Communication",
+        "subjectSlots": ["ENG/KIS", "MAT ALT A/B or any Group II", "any Group III", "any Group II/2nd Group III/IV/V"],
+        "minimumRequirements": [{"subject": "ENG", "minGrade": "C+"}]
+      },
+      "3C": {
+        "label": "Kiswahili and Communication",
+        "subjectSlots": ["ENG/KIS", "MAT ALT A/B or any Group II", "any Group III", "any Group II/2nd Group III/IV/V"],
+        "minimumRequirements": [{"subject": "KIS", "minGrade": "C+"}]
+      },
+      "3D": {
+        "label": "Psychology/Sociology/Social Work/Political Science/Development Studies/Criminology",
+        "subjectSlots": ["ENG/KIS", "MAT ALT A/B or any Group II", "any Group III", "any Group II/2nd Group III/IV/V"],
+        "minimumRequirements": [{"subject": "ENG/KIS", "minGrade": "C+"}]
+      },
+      "3E": {
+        "label": "Fine Art/Graphic Design/Gaming & Animation",
+        "subjectSlots": ["ENG/KIS", "MAT ALT A/B or any Group II", "any Group III", "any Group II/2nd Group III/IV/V"],
+        "minimumRequirements": [{"subject": "ENG/KIS", "minGrade": "C+"}]
+      }
+    }
+  },
+  "4": {
+    "name": "Geosciences and Related",
+    "subclusters": {
+      "4A": {
+        "label": "Geospatial Engineering/Geomatics/Geoinformation",
+        "subjectSlots": ["MAT ALT A", "PHY", "BIO/CHE/GEO", "any Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "PHY", "minGrade": "C+"}, {"subject": "GEO", "minGrade": "C"}]
+      },
+      "4B": {
+        "label": "Geophysics/Meteorology/Astronomy/Geology",
+        "subjectSlots": ["MAT ALT A", "PHY", "BIO/CHE/GEO", "any Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "PHY", "minGrade": "C+"}, {"subject": "GEO/CHE", "minGrade": "C"}]
+      }
+    }
+  },
+  "5": {
+    "name": "Engineering, Engineering Technology, Energy and Related",
+    "subclusters": {
+      "5A": {
+        "label": "Civil/Mechanical/Electrical/Aeronautical/Chemical Engineering",
+        "subjectSlots": ["MAT ALT A", "PHY", "CHE", "BIO or any Group III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "PHY", "minGrade": "C+"}, {"subject": "CHE", "minGrade": "C+"}, {"subject": "ENG/KIS", "minGrade": "C+"}]
+      },
+      "5B": {
+        "label": "Analytical/Industrial Chemistry, Engineering Physics",
+        "subjectSlots": ["MAT ALT A", "PHY", "CHE", "BIO or any Group III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "PHY", "minGrade": "C"}, {"subject": "CHE", "minGrade": "C+"}]
+      },
+      "5C": {
+        "label": "Instrumentation/Control/Renewable Energy/Electronics/Petroleum/Manufacturing",
+        "subjectSlots": ["MAT ALT A", "PHY", "CHE", "BIO or any Group III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "PHY", "minGrade": "C"}, {"subject": "CHE", "minGrade": "C"}]
+      },
+      "5D": {
+        "label": "Agricultural & Biosystems Engineering",
+        "subjectSlots": ["MAT ALT A", "PHY", "CHE", "BIO"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "PHY", "minGrade": "C+"}, {"subject": "CHE", "minGrade": "C+"}, {"subject": "BIO", "minGrade": "C+"}]
+      },
+      "5E": {
+        "label": "Applied/Industrial Technology, Renewable Energy Technology",
+        "subjectSlots": ["MAT ALT A", "PHY", "CHE"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "PHY", "minGrade": "C+"}, {"subject": "CHE", "minGrade": "C+"}]
+      },
+      "5F": {
+        "label": "Education in Technology (Civil/Mechanical/Electrical)",
+        "subjectSlots": ["PHY", "MAT ALT A", "CHE"],
+        "minimumRequirements": [{"subject": "PHY", "minGrade": "C+"}, {"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "CHE", "minGrade": "C+"}]
+      }
+    }
+  },
+  "6": {
+    "name": "Architecture, Quantity Survey, Building Construction, Urban Planning",
+    "subclusters": {
+      "6A": {
+        "label": "Architecture/Quantity Surveying/Landscape Architecture",
+        "subjectSlots": ["MAT ALT A", "PHY", "any Group III", "2nd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "PHY", "minGrade": "C+"}, {"subject": "ENG/KIS", "minGrade": "C+"}]
+      },
+      "6B": {
+        "label": "Planning/Design/Construction Management/Urban & Regional Planning",
+        "subjectSlots": ["MAT ALT A", "PHY", "any Group III", "2nd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "ENG/KIS", "minGrade": "C+"}, {"subject": "GEO", "minGrade": "C"}]
+      },
+      "6C": {
+        "label": "Real Estate/Land Administration",
+        "subjectSlots": ["MAT ALT A", "PHY", "any Group III", "2nd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}]
+      }
+    }
+  },
+  "7": {
+    "name": "Computer Science, Cyber Security, Information Technology and Related",
+    "subclusters": {
+      "7A": {
+        "label": "Computer Science/Software Engineering/Applied Computer Science",
+        "subjectSlots": ["MAT ALT A", "PHY", "2nd Group II or any Group III", "any Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "PHY", "minGrade": "C+"}, {"subject": "ENG/KIS", "minGrade": "C"}]
+      },
+      "7B": {
+        "label": "Statistics & Programming/Mathematics & Computing/Business Computing",
+        "subjectSlots": ["MAT ALT A", "PHY", "2nd Group II or any Group III", "any Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "PHY", "minGrade": "C"}, {"subject": "ENG/KIS", "minGrade": "C"}]
+      },
+      "7C": {
+        "label": "Information Technology / ICT",
+        "subjectSlots": ["MAT ALT A", "PHY", "2nd Group II or any Group III", "any Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "ENG/KIS", "minGrade": "C"}]
+      }
+    }
+  },
+  "8": {
+    "name": "Agricultural Economics, Agribusiness and Related",
+    "subclusters": {
+      "8A": {
+        "label": "Agribusiness Management/Agricultural Economics/Resource Management",
+        "subjectSlots": ["MAT ALT A", "BIO", "PHY or CHE", "3rd Group II or any Group III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "BIO/AGRIC/BST", "minGrade": "C (BIO) or C+ (AGRIC/BST)"}]
+      }
+    }
+  },
+  "9": {
+    "name": "General Sciences, Biological Sciences, Physics, Chemistry and Related",
+    "subclusters": {
+      "9A": {
+        "label": "General Bachelor of Science / Basic Science",
+        "subjectSlots": ["MAT ALT A", "any Group II", "2nd Group II", "3rd Group II or any Group III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "BIO/CHE/PHY", "minGrade": "C"}, {"subject": "BIO/PHY/CHE", "minGrade": "C"}]
+      },
+      "9B": {
+        "label": "Biology/Biochemistry/Microbiology/Biotechnology/Forensic Science",
+        "subjectSlots": ["MAT ALT A", "any Group II", "2nd Group II", "3rd Group II or any Group III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "BIO", "minGrade": "C+"}, {"subject": "CHE", "minGrade": "C"}]
+      },
+      "9C": {
+        "label": "Physics",
+        "subjectSlots": ["MAT ALT A", "any Group II", "2nd Group II", "3rd Group II or any Group III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "PHY", "minGrade": "C+"}]
+      },
+      "9D": {
+        "label": "Chemistry",
+        "subjectSlots": ["MAT ALT A", "any Group II", "2nd Group II", "3rd Group II or any Group III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "CHE", "minGrade": "C+"}]
+      }
+    }
+  },
+  "10": {
+    "name": "Actuarial Science, Mathematics, Statistics, Economics, Finance and Related",
+    "subclusters": {
+      "10A": {
+        "label": "Accountancy",
+        "subjectSlots": ["MAT ALT A", "any Group II", "any Group III", "2nd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "ENG/KIS", "minGrade": "C+"}]
+      },
+      "10B": {
+        "label": "Economics",
+        "subjectSlots": ["MAT ALT A", "any Group II", "any Group III", "2nd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}, {"subject": "ENG/KIS", "minGrade": "C"}]
+      },
+      "10C": {
+        "label": "Actuarial Science/Mathematics/Statistics/Financial Engineering",
+        "subjectSlots": ["MAT ALT A", "any Group II", "any Group III", "2nd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}]
+      }
+    }
+  },
+  "11": {
+    "name": "Interior Design, Fashion Design, Textile and Related",
+    "subclusters": {
+      "11A": {
+        "label": "Fashion Design/Textile/Interior Design",
+        "subjectSlots": ["CHE", "MAT ALT A/B or PHY", "BIO/HSC", "ENG/KIS or any Group III/IV/V"],
+        "minimumRequirements": [{"subject": "CHE", "minGrade": "C"}]
+      }
+    }
+  },
+  "12": {
+    "name": "Sports Science and Related",
+    "subclusters": {
+      "12A": {
+        "label": "Sports Science/Exercise Science/Recreation Management",
+        "subjectSlots": ["BIO/GSC", "MAT ALT A/B", "any Group II or III", "ENG/KIS or any Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "BIO/GSC", "minGrade": "C"}]
+      }
+    }
+  },
+  "13": {
+    "name": "Medicine, Nursing, Dentistry, Pharmacy, Health Sciences and Related",
+    "subclusters": {
+      "13A": {
+        "label": "Medicine & Surgery / Dental Surgery",
+        "subjectSlots": ["BIO", "CHE", "MAT ALT A/PHY", "ENG/KIS or 3rd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "B"}, {"subject": "CHE", "minGrade": "B"}, {"subject": "MAT ALT A/PHY", "minGrade": "B"}, {"subject": "ENG/KIS", "minGrade": "B"}]
+      },
+      "13B": {
+        "label": "Pharmacy/Nursing/Medical Laboratory Science/Physiotherapy/Optometry",
+        "subjectSlots": ["BIO", "CHE", "MAT ALT A/PHY", "ENG/KIS or 3rd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C+"}, {"subject": "CHE", "minGrade": "C+"}, {"subject": "MAT ALT A/PHY", "minGrade": "C+"}, {"subject": "ENG/KIS", "minGrade": "C+"}]
+      },
+      "13C": {
+        "label": "Public Health/Clinical Medicine/Community & Public Health/Occupational Health",
+        "subjectSlots": ["BIO", "CHE", "MAT ALT A/PHY", "ENG/KIS or 3rd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C"}, {"subject": "CHE", "minGrade": "C"}, {"subject": "MAT ALT A/PHY", "minGrade": "C"}, {"subject": "ENG/KIS", "minGrade": "C"}]
+      },
+      "13D": {
+        "label": "Veterinary Medicine",
+        "subjectSlots": ["BIO", "CHE", "MAT ALT A/PHY/AGRIC"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C+"}, {"subject": "CHE", "minGrade": "C+"}, {"subject": "MAT ALT A/PHY/AGRIC", "minGrade": "C+"}]
+      },
+      "13E": {
+        "label": "Biostatistics/Epidemiology",
+        "subjectSlots": ["BIO", "MAT ALT A"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C+"}, {"subject": "MAT ALT A", "minGrade": "C+"}]
+      },
+      "13F": {
+        "label": "Biomedical Science & Technology/Laboratory Sciences/Medical Psychology",
+        "subjectSlots": ["BIO", "MAT ALT A/PHY"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C+"}, {"subject": "MAT ALT A/PHY", "minGrade": "C+"}]
+      },
+      "13G": {
+        "label": "Health Records & Health Information Management",
+        "subjectSlots": ["BIO/BSC", "MAT ALT A", "ENG/KIS", "PHY/CHE/PSC"],
+        "minimumRequirements": [{"subject": "BIO/BSC", "minGrade": "C-"}, {"subject": "MAT ALT A", "minGrade": "C"}, {"subject": "ENG/KIS", "minGrade": "C+"}, {"subject": "PHY/CHE/PSC", "minGrade": "C"}]
+      }
+    }
+  },
+  "14": {
+    "name": "History, Archeology, Geography and Related",
+    "subclusters": {
+      "14A": {
+        "label": "History and Archaeology / International Studies",
+        "subjectSlots": ["HAG", "ENG/KIS", "MAT ALT A/B or any Group II", "any Group II/2nd Group III/IV/V"],
+        "minimumRequirements": [{"subject": "History & Government", "minGrade": "C+"}]
+      }
+    }
+  },
+  "15": {
+    "name": "Agriculture, Animal Health, Food Science and Related",
+    "subclusters": {
+      "15A": {
+        "label": "Animal Health & Production",
+        "subjectSlots": ["BIO", "CHE", "MAT ALT A/PHY/GEO", "ENG/KIS or 3rd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C+"}, {"subject": "CHE/MAT ALT A/PHY", "minGrade": "C+"}]
+      },
+      "15B": {
+        "label": "Animal Science & Management",
+        "subjectSlots": ["BIO", "CHE", "MAT ALT A/PHY/GEO", "ENG/KIS or 3rd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C+"}, {"subject": "MAT ALT A/PHY/CHE", "minGrade": "C+"}]
+      },
+      "15C": {
+        "label": "Food, Nutrition and Dietetics",
+        "subjectSlots": ["BIO", "CHE", "MAT ALT A/PHY/GEO", "ENG/KIS or 3rd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C"}, {"subject": "CHE", "minGrade": "C"}, {"subject": "MAT ALT A/B/PHY/GEO", "minGrade": "C"}, {"subject": "ENG/KIS", "minGrade": "C"}]
+      },
+      "15D": {
+        "label": "Fisheries and Aquaculture/Marine Resources",
+        "subjectSlots": ["BIO", "CHE", "MAT ALT A/PHY/GEO", "ENG/KIS or 3rd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C"}, {"subject": "CHE", "minGrade": "C"}]
+      },
+      "15E": {
+        "label": "Food Science and Technology",
+        "subjectSlots": ["BIO/AGRIC/HSC", "CHE", "MATH"],
+        "minimumRequirements": [{"subject": "BIO/AGRIC/HSC", "minGrade": "C"}, {"subject": "CHE", "minGrade": "C"}, {"subject": "MATH", "minGrade": "C"}]
+      },
+      "15F": {
+        "label": "Environmental Science/Studies",
+        "subjectSlots": ["BIO/AGR", "CHE/GEO"],
+        "minimumRequirements": [{"subject": "BIO/AGR", "minGrade": "C+"}, {"subject": "CHE/GEO", "minGrade": "C+"}]
+      },
+      "15G": {
+        "label": "Agriculture/Forestry/Horticulture/Natural Resources/Wildlife/Range Management",
+        "subjectSlots": ["BIO/AGR", "CHE", "MAT ALT A/PHY/GEO"],
+        "minimumRequirements": [{"subject": "BIO/AGR", "minGrade": "C (BIO) or C+ (AGR)"}, {"subject": "CHE", "minGrade": "C"}, {"subject": "MAT ALT A/PHY/GEO", "minGrade": "C"}]
+      }
+    }
+  },
+  "16": {
+    "name": "Geography and Natural Resource Management",
+    "subclusters": {
+      "16A": {
+        "label": "Geography/Land Resource Planning",
+        "subjectSlots": ["GEO", "MAT ALT A/B", "any Group II", "2nd Group II/III/IV/V"],
+        "minimumRequirements": [{"subject": "GEO", "minGrade": "C+"}]
+      }
+    }
+  },
+  "17": {
+    "name": "French, German and Related Languages",
+    "subclusters": {
+      "17A": {
+        "label": "French/German",
+        "subjectSlots": ["FRE/GER", "ENG/KIS", "MAT ALT A/B or any Group II/III", "any Group II/III/IV/2nd V"],
+        "minimumRequirements": [{"subject": "FRE/GER", "minGrade": "C+"}]
+      }
+    }
+  },
+  "18": {
+    "name": "Music",
+    "subclusters": {
+      "18A": {
+        "label": "Music",
+        "subjectSlots": ["MUS", "ENG/KIS", "MAT ALT A/B or any Group II/III", "any Group II/III/IV/2nd V"],
+        "minimumRequirements": [{"subject": "MUS", "minGrade": "C+"}]
+      }
+    }
+  },
+  "19": {
+    "name": "Education",
+    "subclusters": {
+      "19A": {
+        "label": "Bachelor of Education (Science)",
+        "subjectSlots": ["ENG", "MAT ALT A/B or any Group II", "2nd Group II", "KIS or 3rd Group II/2nd III/IV/V"],
+        "minimumRequirements": [{"subject": "MAT ALT A/PHY/CHE/BIO", "minGrade": "C+ (two teaching subjects)"}]
+      },
+      "19B": {
+        "label": "Bachelor of Education (Arts) / ECDE / Library Science / Guidance & Counselling",
+        "subjectSlots": ["ENG", "MAT ALT A/B or any Group II", "2nd Group II", "KIS or 3rd Group II/2nd III/IV/V"],
+        "minimumRequirements": [{"subject": "ENG/KIS/MAT ALT/HAG/GEO/CRE/IRE/HRE/SSE/HSC/ARD/CMP/Group V", "minGrade": "C+ (two teaching subjects)"}]
+      },
+      "19C": {
+        "label": "Bachelor of Education (Arts - Business Studies)",
+        "subjectSlots": ["MAT ALT A/B or BST", "ENG/KIS/MAT ALT/HAG/GEO/CRE/IRE/HRE/SSE/HSC/ARD/CMP/Group V"],
+        "minimumRequirements": [{"subject": "MAT ALT A/B/BST", "minGrade": "C+"}]
+      },
+      "19D": {
+        "label": "Bachelor of Education (Physical Education and Sports)",
+        "subjectSlots": ["BIO/GSC", "ENG/KIS/MAT ALT/HAG/GEO/CRE/IRE/HRE/SSE/HSC/ARD/CMP/Group V"],
+        "minimumRequirements": [{"subject": "BIO/GSC", "minGrade": "C+"}]
+      },
+      "19E": {
+        "label": "Bachelor of Education (Special Needs / Visual & Performing Arts)",
+        "subjectSlots": ["BIO/GSC", "MAT ALT A/B/2nd Group II/GEO"],
+        "minimumRequirements": [{"subject": "BIO/GSC", "minGrade": "C+"}]
+      },
+      "19F": {
+        "label": "Bachelor of Education (French)",
+        "subjectSlots": ["FRENCH", "ENG/KIS/MAT ALT/HAG/GEO/CRE/IRE/HRE/SSE/HSC/ARD/CMP/Group V"],
+        "minimumRequirements": [{"subject": "FRENCH", "minGrade": "C+"}]
+      },
+      "19G": {
+        "label": "Bachelor of Education (Music)",
+        "subjectSlots": ["MUSIC", "ENG/KIS/MAT ALT/HAG/GEO/CRE/IRE/HRE/SSE/HSC/ARD/CMP/Group V"],
+        "minimumRequirements": [{"subject": "MUSIC", "minGrade": "C+"}]
+      },
+      "19H": {
+        "label": "Bachelor of Education (German)",
+        "subjectSlots": ["GERMAN", "ENG/KIS/MAT ALT/HAG/GEO/CRE/IRE/HRE/SSE/HSC/ARD/CMP/Group V"],
+        "minimumRequirements": [{"subject": "GERMAN", "minGrade": "C+"}]
+      },
+      "19I": {
+        "label": "Bachelor of Agricultural Education & Extension",
+        "subjectSlots": ["BIO", "AGR/BIO"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C+"}]
+      },
+      "19J": {
+        "label": "Bachelor of Education (Computer Studies / ICT)",
+        "subjectSlots": ["COMP/MAT ALT A/PHY"],
+        "minimumRequirements": [{"subject": "MAT ALT A", "minGrade": "C+"}]
+      },
+      "19K": {
+        "label": "Bachelor of Education (Agriculture)",
+        "subjectSlots": ["BIO", "AGR/BIO"],
+        "minimumRequirements": [{"subject": "BIO", "minGrade": "C+"}]
+      }
+    }
+  },
+  "20": {
+    "name": "Religion, Theology and Related",
+    "subclusters": {
+      "20A": {
+        "label": "Religious Studies/Theology/Biblical Studies",
+        "subjectSlots": ["CRE/IRE/HRE", "ENG/KIS", "2nd Group III", "any Group II/IV/V"],
+        "minimumRequirements": [{"subject": "CRE/IRE/HRE", "minGrade": "C+"}, {"subject": "ENG/KIS", "minGrade": "C"}]
+      }
+    }
+  }
+}

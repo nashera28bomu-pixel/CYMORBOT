@@ -1,0 +1,4070 @@
+{
+ "BA IN BIBLICAL STUDIES": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BA IN CHURCH EDUCATIONAL MINISTRIES": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BA IN INTER-CULTURAL STUDIES": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR IN BUSINESS ADMINISTRATION": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR IN BUSINESS ADMINISTRATION IN MARKETING": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR IN INTERACTIVE MEDIA TECHNOLOGY": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR IN SUPPLY CHAIN AND LOGISTICS MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF ACCOUNTANCY AND FINANCIAL MANAGEMENT": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF ACCOUNTING": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF ACCOUNTING AND FINANCE": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF ACTUARIAL SCIENCE": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF AGRI TECHNOLOGY AND FOOD SYSTEMS": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF AGRIBUSINESS MANAGEMENT": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF AGRICULTURAL ECONOMICS AND MARKETING": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF AGRICULTURAL EDUCATION & EXTENSION": {
+  "cluster": "19",
+  "subcluster": "19I"
+ },
+ "BACHELOR OF AGRICULTURAL EDUCATION AND EXTENSION": {
+  "cluster": "19",
+  "subcluster": "19I"
+ },
+ "BACHELOR OF ANIMATION AND GRAPHICS DESIGN": {
+  "cluster": "3",
+  "subcluster": "3E"
+ },
+ "BACHELOR OF APPLIED COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF APPLIED SCIENCE (GEO-INFORMATICS)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF ARCHITECTURAL STUDIES/BACHELOR OF ARCHITECTURE": {
+  "cluster": "6",
+  "subcluster": "6A"
+ },
+ "BACHELOR OF ARCHITECTURE": {
+  "cluster": "6",
+  "subcluster": "6A"
+ },
+ "BACHELOR OF ARTS": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS ( KISWAHILI AND COMMUNICATION)": {
+  "cluster": "3",
+  "subcluster": "3C"
+ },
+ "BACHELOR OF ARTS ( POLITICAL SCIENCE)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS ( POLITICAL SCIENCE, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (ANTHROPOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (BUSINESS STUDIES, WITH IT)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF ARTS (COMMUNICATION & MEDIA TECHNOLOGY, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (COMMUNICATION AND MEDIA)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (COMMUNITY DEVELOPMENT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (COUNSELING)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (COUNSELLING PSYCHOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (COUNSELLING)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (CRIMINOLOGY & SECURITY STUDIES)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (CRIMINOLOGY AND CRIMINAL JUSTICE)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (CRIMINOLOGY AND PENOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (CRIMINOLOGY AND SECURITY STUDIES)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (CRIMINOLOGY, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (DESIGN)": {
+  "cluster": "3",
+  "subcluster": "3E"
+ },
+ "BACHELOR OF ARTS (DEVELOPMENT STUDIES, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (DISASTER MANAGEMENT AND PEACE STUDIES)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ARTS (DISASTER MANAGEMENT, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ARTS (DRAMA AND THEATRE STUDIES, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (ECONOMICS & SOCIOLOGY)": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS (ECONOMICS AND SOCIOLOGY)": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS (ECONOMICS)": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS (ECONOMICS, WITH IT)": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS (ENGLISH & COMMUNICATION)": {
+  "cluster": "3",
+  "subcluster": "3B"
+ },
+ "BACHELOR OF ARTS (FINE ART, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3E"
+ },
+ "BACHELOR OF ARTS (FINE ARTS)": {
+  "cluster": "3",
+  "subcluster": "3E"
+ },
+ "BACHELOR OF ARTS (FRENCH)": {
+  "cluster": "17",
+  "subcluster": "17A"
+ },
+ "BACHELOR OF ARTS (FRENCH, WITH IT)": {
+  "cluster": "17",
+  "subcluster": "17A"
+ },
+ "BACHELOR OF ARTS (GENDER AND DEVELOPMENT STUDIES)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (GENDER AND DEVELOPMENT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (GENDER AND SOCIAL STUDIES)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (GENDER, WOMEN AND DEVELOPMENT STUDIES)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (GEOGRAPHY)": {
+  "cluster": "16",
+  "subcluster": "16A"
+ },
+ "BACHELOR OF ARTS (GERMAN)": {
+  "cluster": "17",
+  "subcluster": "17A"
+ },
+ "BACHELOR OF ARTS (HISTORY & ECONOMICS)": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS (HISTORY AND ARCHAEOLOGY)": {
+  "cluster": "14",
+  "subcluster": "14A"
+ },
+ "BACHELOR OF ARTS (HISTORY AND ARCHAEOLOGY, WITH IT)": {
+  "cluster": "14",
+  "subcluster": "14A"
+ },
+ "BACHELOR OF ARTS (HISTORY)": {
+  "cluster": "14",
+  "subcluster": "14A"
+ },
+ "BACHELOR OF ARTS (HUMAN RIGHTS)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (INTERNATIONAL RELATIONS AND DIPLOMACY ,WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (INTERNATIONAL RELATIONS AND DIPLOMACY)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (KISWAHILI)": {
+  "cluster": "3",
+  "subcluster": "3C"
+ },
+ "BACHELOR OF ARTS (KISWAHILI, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3C"
+ },
+ "BACHELOR OF ARTS (LANGUAGE AND COMMUNICATION, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (LINGUISTIC)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (LINGUISTICS AND LITERATURE)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (LINGUISTICS, MEDIA AND COMMUNICATION)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (LITERATURE)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (LITERATURE, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (MUSIC)": {
+  "cluster": "18",
+  "subcluster": "18A"
+ },
+ "BACHELOR OF ARTS (MUSIC, WITH IT)": {
+  "cluster": "18",
+  "subcluster": "18A"
+ },
+ "BACHELOR OF ARTS (PEACE EDUCATION)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF ARTS (PENOLOGY, CORRECTION AND ADMINISTRATION)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (PHILOSOPHY)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (PLANNING)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF ARTS (POLITICAL SCIENCE & PUBLIC ADMINISTRATION)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (POLITICAL SCIENCE AND PUBLIC ADMINISTRATION)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (PSYCHOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (PSYCHOLOGY, SOCIOLOGY & POLITICAL SCIENCE)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (PUBLIC ADMINISTRATION AND POLITICAL SCIENCE)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (PUBLIC ADMINISTRATION)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (RELIGION, WITH IT)": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS (RELIGIOUS STUDIES)": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS (SOCIAL WORK AND SOCIOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (SOCIAL WORK)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (SOCIOLOGY & RELIGIOUS STUDIES)": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS (SOCIOLOGY AND ANTHROPOLOGY, WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (SOCIOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (TEXTILE, FASHION DESIGN AND MERCHANDISING, WITH IT)": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF ARTS (THEATER ARTS & FILM TECHNOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS (URBAN AND REGIONAL PLANNING, WITH IT)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF ARTS (WITH EDUCATION)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS (WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS COMMUNITY DEVELOPMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN ANTHROPOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN ARABIC LANGUAGE": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN CHAPLAINCY": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS IN CHILD AND YOUTH STUDIES": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN CHILDCARE AND PROTECTION": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN COMMUNICATION AND MEDIA STUDIES": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN COMMUNICATION STUDIES": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN COMMUNICATION, LINGUISTICS AND TRANSLATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN COMMUNITY DEVELOPMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN CONFLICTS AND SECURITY STUDIES": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN COUNSELING": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN COUNSELING PSYCHOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN COUNSELLING PSYCHOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN CRIMINAL JUSTICE AND SECURITY MANAGEMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN CRIMINOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN CRIMINOLOGY AND SOCIAL JUSTICE": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN CRIMINOLOGY, CRIMINAL JUSTICE AND PUBLIC SAFETY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN DESIGN (INTERIOR DESIGN, WITH IT)": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF ARTS IN DEVELOPMENT STUDIES": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN DIGITAL JOURNALISM AND MASS COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN ECONOMICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS IN ECONOMICS AND BUSINESS STUDIES": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS IN ENGLISH": {
+  "cluster": "3",
+  "subcluster": "3B"
+ },
+ "BACHELOR OF ARTS IN ENGLISH AND LINGUISTICS": {
+  "cluster": "3",
+  "subcluster": "3B"
+ },
+ "BACHELOR OF ARTS IN ENGLISH LANGUAGE AND LITERATURE": {
+  "cluster": "3",
+  "subcluster": "3B"
+ },
+ "BACHELOR OF ARTS IN ENVIRONMENTAL PLANNING AND MANAGEMENT": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF ARTS IN FILM PRODUCTION, ANIMATION AND GAMING": {
+  "cluster": "3",
+  "subcluster": "3E"
+ },
+ "BACHELOR OF ARTS IN GEOGRAPHY": {
+  "cluster": "16",
+  "subcluster": "16A"
+ },
+ "BACHELOR OF ARTS IN GEOGRAPHY AND ECONOMICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS IN HISTORY": {
+  "cluster": "14",
+  "subcluster": "14A"
+ },
+ "BACHELOR OF ARTS IN HISTORY & INTERNATIONAL STUDIES": {
+  "cluster": "14",
+  "subcluster": "14A"
+ },
+ "BACHELOR OF ARTS IN HISTORY AND ECONOMICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS IN HUMAN RESOURCE MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF ARTS IN INTERNATIONAL RELATIONS": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN INTERNATIONAL RELATIONS AND DIPLOMACY": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN INTERNATIONAL STUDIES": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN ISLAMIC SHARIA": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS IN ISLAMIC STUDIES": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS IN JOURNALISM AND DIGITAL MEDIA": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN JOURNALISM AND MASS COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN KISWAHILI": {
+  "cluster": "3",
+  "subcluster": "3C"
+ },
+ "BACHELOR OF ARTS IN KISWAHILI AND GEOGRAPHY": {
+  "cluster": "16",
+  "subcluster": "16A"
+ },
+ "BACHELOR OF ARTS IN KISWAHILI AND MEDIA STUDIES": {
+  "cluster": "3",
+  "subcluster": "3C"
+ },
+ "BACHELOR OF ARTS IN LANGUAGE AND COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN LEADERSHIP AND MANAGEMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN LITERATURE, THEATRE AND FILM": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN MASS COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN MASS MEDIA AND COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN MATHEMATICS AND ECONOMICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ARTS IN MEDIA AND COMMUNICATION STUDIES": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN PASTORAL THEOLOGY": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS IN PEACE AND CONFLICT STUDIES": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PEACE AND CONFLICT TRANSFORMATION": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PEACE STUDIES AND CONFLICT RESOLUTION": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PHILOSOPHY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PHILOSOPHY AND LEADERSHIP STUDIES": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PHILOSOPHY WITH A FOCUS ON PEACE AND SECURITY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN POLITICAL SCIENCE": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN POLITICAL SCIENCE AND PUBLIC ADMINISTRATION": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN POLITICAL SCIENCE WITH TECHNOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PSYCHOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PSYCHOLOGY WITH TECHNOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PUBLIC ADMINISTRATION": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PUBLIC ADMINISTRATION AND COUNTY GOVERNANCE": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PUBLIC ADMINISTRATION AND GOVERNANCE": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PUBLIC POLICY AND MANAGEMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN PUBLIC RELATIONS": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN PUBLIC RELATIONS AND ADVERTISING": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN RELIGION": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS IN RELIGIOUS STUDIES": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS IN SECURITY STUDIES AND CRIMINOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN SOCIAL COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS IN SOCIAL WORK": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN SOCIOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN SOCIOLOGY AND TECHNOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN SUSTAINABLE HUMAN DEVELOPMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS IN THEOLOGY": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ARTS IN TRANSLATION STUDIES": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS INTERIOR DESIGN": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF ARTS PERFORMING ARTS AND FILM TECHNOLOGY": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF ARTS(SOCIAL WORK)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF ARTS(SPATIAL PLANNING)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF BROADCAST JOURNALISM": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF BUSINESS ADMINISTRATION": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS ADMINISTRATION ( WITH IT)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS ADMINISTRATION AND MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS ADMINISTRATION IN ACCOUNTING": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF BUSINESS ADMINISTRATION IN FINANCE": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS ADMINISTRATION IN MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS ADMINISTRATION IN OFFICE ADMINISTRATION": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS ADMINISTRATION WITH IT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS AND ENTREPRENEURSHIP": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS AND INFORMATION TECHNOLOGY": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF BUSINESS AND MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS AND OFFICE MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS ENTREPRENEURSHIP , WITH IT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS INFORMATION AND MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS INFORMATION TECHNOLOGY": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF BUSINESS LEADERSHIP": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS MANAGEMENT (CIVIL AVIATION MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS MANAGEMENT (MARINE BUSINESS MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF BUSINESS MANAGEMENT AND INFORMATION TECHNOLOGY": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF CATERING AND HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF CHRISTIAN EDUCATION": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF CO-OPERATIVE BUSINESS": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF CO-OPERATIVE MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF CO-OPERATIVES AND COMMUNITY DEVELOPMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF COMMERCE": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF COMMERCE (B.COM)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF COMMERCE IN MANAGEMENT INFORMATION SYSTEMS": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF COMMERCE(B.COM)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF COMMUNICATION & JOURNALISM": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF COMMUNICATION & PUBLIC RELATIONS": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF COMMUNICATION AND MEDIA STUDIES": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF COMMUNICATION AND PUBLIC RELATIONS": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF COMMUNITY DEVELOPMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF CONFLICT RESOLUTION AND HUMANITAIRAN ASSISTANCE": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF CONSTRUCTION MANAGEMENT": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF COUNSELING PSYCHOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF COUNSELLING PSYCHOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF CRIMINOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF DATA SCIENCE": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF DENTAL SURGERY": {
+  "cluster": "13",
+  "subcluster": "13A"
+ },
+ "BACHELOR OF DEVELOPMENT STUDIES": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF DEVELOPMENT STUDIES WITH IT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF DISASTER MANAGEMENT & INTERNATIONAL DIPLOMACY": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF DIVINITY": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF ECONOMICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECONOMICS & FINANCE": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECONOMICS & STATISTICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECONOMICS AND DATA ANALYTICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECONOMICS AND DATA SCIENCE": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECONOMICS AND FINANCE": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECONOMICS AND FINANCE, WITH IT": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECONOMICS AND MATHEMATICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECONOMICS AND POLICY": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECONOMICS AND STATISTICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF ECOTOURISM AND HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF EDUCATION (AGRICULTURAL EDUCATION)": {
+  "cluster": "19",
+  "subcluster": "19I"
+ },
+ "BACHELOR OF EDUCATION (ARTS - BUSINESS STUDIES)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (ARTS)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (ARTS) FINE ART": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (ARTS) FRENCH": {
+  "cluster": "17",
+  "subcluster": "17A"
+ },
+ "BACHELOR OF EDUCATION (ARTS) GERMAN": {
+  "cluster": "17",
+  "subcluster": "17A"
+ },
+ "BACHELOR OF EDUCATION (ARTS) MUSIC": {
+  "cluster": "18",
+  "subcluster": "18A"
+ },
+ "BACHELOR OF EDUCATION (ARTS) WITH GUIDANCE AND COUNSELLING": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (ARTS) WITH SPECIAL NEEDS EDUCATION": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (ARTS, WITH IT)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (EARLY CHILDHOOD & PRIMARY EDUCATION)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (EARLY CHILDHOOD AND PRIMARY EDUCATION)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (EARLY CHILDHOOD DEVELOPMENT EDUCATION)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (EARLY CHILDHOOD DEVELOPMENT)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (EARLY CHILDHOOD EDUCATION)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (EARLY CHILDHOOD EDUCATION, WITH IT)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (FRENCH)": {
+  "cluster": "17",
+  "subcluster": "17A"
+ },
+ "BACHELOR OF EDUCATION (FRENCH, WITH IT)": {
+  "cluster": "17",
+  "subcluster": "17A"
+ },
+ "BACHELOR OF EDUCATION (GUIDANCE AND COUNSELLING)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION (HOME SCIENCE , WITH IT)": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF EDUCATION (HOME SCIENCE AND TECHNOLOGY)": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF EDUCATION (ICT)": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF EDUCATION (LIBRARY SCIENCE)": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF EDUCATION (MUSIC, WITH IT)": {
+  "cluster": "18",
+  "subcluster": "18A"
+ },
+ "BACHELOR OF EDUCATION (PHYSICAL EDUCATION AND SPORTS)": {
+  "cluster": "12",
+  "subcluster": "12A"
+ },
+ "BACHELOR OF EDUCATION (PHYSICAL EDUCATION)": {
+  "cluster": "19",
+  "subcluster": "19D"
+ },
+ "BACHELOR OF EDUCATION (SCIENCE)": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF EDUCATION (SCIENCE) WITH GUIDANCE AND COUNSELING": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF EDUCATION (SCIENCE) WITH SPECIAL NEEDS EDUCATION": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF EDUCATION (SCIENCE, WITH IT)": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF EDUCATION (SPECIAL NEEDS EDUCATION - SECONDARY OPTION)": {
+  "cluster": "19",
+  "subcluster": "19E"
+ },
+ "BACHELOR OF EDUCATION (SPECIAL NEEDS EDUCATION)": {
+  "cluster": "19",
+  "subcluster": "19E"
+ },
+ "BACHELOR OF EDUCATION (SPECIAL NEEDS EDUCATION, WITH IT)": {
+  "cluster": "19",
+  "subcluster": "19E"
+ },
+ "BACHELOR OF EDUCATION (TECHNOLOGY EDUCATION)": {
+  "cluster": "5",
+  "subcluster": "5F"
+ },
+ "BACHELOR OF EDUCATION ARTS": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION ARTS (FRENCH)": {
+  "cluster": "17",
+  "subcluster": "17A"
+ },
+ "BACHELOR OF EDUCATION ARTS (HOME ECONOMICS)": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF EDUCATION IN EARLY CHILDHOOD EDUCATION": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION IN PHYSICAL EDUCATION AND RECREATION": {
+  "cluster": "19",
+  "subcluster": "19D"
+ },
+ "BACHELOR OF EDUCATION IN SPECIAL EDUCATION": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION IN SPECIAL NEEDS EDUCATION": {
+  "cluster": "19",
+  "subcluster": "19E"
+ },
+ "BACHELOR OF EDUCATION IN TECHNOLOGY (BUILDING & CIVIL TECHNOLOGY)": {
+  "cluster": "5",
+  "subcluster": "5F"
+ },
+ "BACHELOR OF EDUCATION IN TECHNOLOGY (CIVIL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF EDUCATION IN TECHNOLOGY (ELECTRICAL & ELECTRONIC ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF EDUCATION IN TECHNOLOGY (ELECTRICAL & ELECTRONIC TECHNOLOGY)": {
+  "cluster": "5",
+  "subcluster": "5F"
+ },
+ "BACHELOR OF EDUCATION IN TECHNOLOGY (MECHANICAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF EDUCATION IN TECHNOLOGY (MECHANICALTECHNOLOGY)": {
+  "cluster": "5",
+  "subcluster": "5F"
+ },
+ "BACHELOR OF EDUCATION SCIENCE": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF EDUCATION SCIENCE (COMPUTER)": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF EDUCATION SPECIAL NEEDS EDUCATION SECONDARY OPTION": {
+  "cluster": "19",
+  "subcluster": "19E"
+ },
+ "BACHELOR OF EDUCATION TECHNOLOGY (CIVIL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF EDUCATION TECHNOLOGY (COMPUTER STUDIES)": {
+  "cluster": "19",
+  "subcluster": "19J"
+ },
+ "BACHELOR OF EDUCATION TECHNOLOGY (ELECTRICAL & ELECTRONICS ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF EDUCATION TECHNOLOGY (MECHANICAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF EDUCATION WITH GUIDANCE AND COUNSELLING": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION(ARTS) WITH IT": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION(EARLY CHILDHOOD DEVELOPMENT)": {
+  "cluster": "19",
+  "subcluster": "19B"
+ },
+ "BACHELOR OF EDUCATION(MAJOR ACCOUNTING AND BUSINESS ADMINISTRATION)": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF EDUCATION(SCIENCE WITH IT)": {
+  "cluster": "19",
+  "subcluster": "19A"
+ },
+ "BACHELOR OF ENGINEERING (AERONAUTICAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (AGRICULTURAL & BIO-SYSTEMS ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5D"
+ },
+ "BACHELOR OF ENGINEERING (CHEMICAL AND PROCESS ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (CHEMICAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (CIVIL & STRUCTURAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (CIVIL AND STRUCTURAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (CIVIL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (ELECTRICAL AND ELECTRONIC ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (ELECTRICAL AND ELECTRONICS ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (ELECTRICAL AND TELECOMMUNICATION ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (GEOSPATIAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (MANUFACTURING, INDUSTRIAL AND TEXTILE ENGINEERING)": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF ENGINEERING (MECHANICAL & PRODUCTION ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (MECHANICAL AND PRODUCTION ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING (MECHANICAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF ENGINEERING PHYSICS": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF ENTREPRENEURSHIP": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF ENTREPRENEURSHIP AND ENTERPRISE MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF ENTREPRENEURSHIP AND SMALL BUSINESS MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF ENTREPRENUERSHIP & SMALL BUSINESS MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF ENTREPRENUERSHIP AND ENTERPRISE MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF ENTREPRENUERSHIP AND MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF ENVIRONMENTAL PLANNING & MANAGEMENT": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF ENVIRONMENTAL SCIENCE": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ENVIRONMENTAL SCIENCE (RESOURCE CONSERVATION)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ENVIRONMENTAL STUDIES": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ENVIRONMENTAL STUDIES (ARTS)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ENVIRONMENTAL STUDIES (COMMUNITY DEVELOPMENT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ENVIRONMENTAL STUDIES (COMMUNITY RESOURCE CONSERVATION)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ENVIRONMENTAL STUDIES (EARTH SCIENCES)": {
+  "cluster": "4",
+  "subcluster": "4B"
+ },
+ "BACHELOR OF ENVIRONMENTAL STUDIES (ENVIRONMENTAL RESOURCE CONSERVATION)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ENVIRONMENTAL STUDIES (SCIENCE)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF ENVIRONMENTAL STUDIES AND COMMUNITY DEVELOPMENT": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF FILM AND ANIMATION STUDIES": {
+  "cluster": "3",
+  "subcluster": "3E"
+ },
+ "BACHELOR OF FILM PRODUCTION AND ANIMATION": {
+  "cluster": "3",
+  "subcluster": "3E"
+ },
+ "BACHELOR OF FINANCIAL ECONOMICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF HEALTH SERVICES MANAGEMENT": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF HOSPITALITY AND INSTITUTIONAL MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF HOSPITALITY AND TOURISM MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF HOTEL & HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF HOTEL AND HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF HOTEL MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF HOTELS AND HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF HUMAN RESOURCE MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF HUMAN RESOURCES MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF INDUSTRIAL TECHNOLOGY": {
+  "cluster": "5",
+  "subcluster": "5E"
+ },
+ "BACHELOR OF INFORMATION COMMUNICATION TECHNOLOGY": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF INFORMATION SCIENCE": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF INFORMATION TECHNOLOGY": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF INTERNATIONAL TOURISM MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF JOURNALISM": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF JOURNALISM & MASS COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF JOURNALISM AND MASS COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF JUSTICE AND PEACE": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF LAND AND ESTATE MANAGEMENT": {
+  "cluster": "6",
+  "subcluster": "6C"
+ },
+ "BACHELOR OF LANDSCAPE ARCHITECTURE": {
+  "cluster": "6",
+  "subcluster": "6A"
+ },
+ "BACHELOR OF LAWS": {
+  "cluster": "1",
+  "subcluster": "1A"
+ },
+ "BACHELOR OF LAWS (LL.B.)": {
+  "cluster": "1",
+  "subcluster": "1A"
+ },
+ "BACHELOR OF LAWS (LL.B.), WITH IT": {
+  "cluster": "1",
+  "subcluster": "1A"
+ },
+ "BACHELOR OF LAWS (LLB)": {
+  "cluster": "1",
+  "subcluster": "1A"
+ },
+ "BACHELOR OF LEADERSHIP AND MANAGEMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF LIBRARY & INFORMATION SCIENCE": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF LIBRARY AND INFORMATION SCIENCE": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF LIBRARY AND INFORMATION STUDIES": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF LINGUISTICS AND COMMUNICATION STUDIES": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF LOGISTICS AND SUPPLY CHAIN MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF MANAGEMENT AND LEADERSHIP": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF MANAGEMENT AND OFFICE ADMINISTRATION": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF MARITIME AND SHIPPING MANAGEMENT": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF MARITIME STUDIES": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF MASS COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF MEDICAL LABORATORY SCIENCES": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF MEDICINE & BACHELOR OF SURGERY": {
+  "cluster": "13",
+  "subcluster": "13A"
+ },
+ "BACHELOR OF MEDICINE & BACHELOR OF SURGERY (M.B.CH.B.)": {
+  "cluster": "13",
+  "subcluster": "13A"
+ },
+ "BACHELOR OF MEDICINE AND BACHELOR OF SURGERY": {
+  "cluster": "13",
+  "subcluster": "13A"
+ },
+ "BACHELOR OF MEDICINE AND BACHELOR OF SURGERY (MBCHB)": {
+  "cluster": "13",
+  "subcluster": "13A"
+ },
+ "BACHELOR OF MEDICINE AND BACHELOR OF SURGERY (WITH IT)": {
+  "cluster": "13",
+  "subcluster": "13A"
+ },
+ "BACHELOR OF MUSIC": {
+  "cluster": "18",
+  "subcluster": "18A"
+ },
+ "BACHELOR OF MUSIC (TECHNOLOGY)": {
+  "cluster": "18",
+  "subcluster": "18A"
+ },
+ "BACHELOR OF MUSIC IN MUSIC EDUCATION": {
+  "cluster": "18",
+  "subcluster": "18A"
+ },
+ "BACHELOR OF MUSIC PRODUCTION TECHNOLOGY": {
+  "cluster": "18",
+  "subcluster": "18A"
+ },
+ "BACHELOR OF MUSIC THEORY AND COMPOSITION": {
+  "cluster": "18",
+  "subcluster": "18A"
+ },
+ "BACHELOR OF ORGANIZATIONAL MANAGEMENT AND TECHNOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF PHARMACY": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF PHARMACY, WITH IT": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF PHILOSOPHY IN TECHNOLOGY (SURVEYING TECHNOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF POLITICAL SCIENCE AND PUBLIC ADMINISTRATION": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF PROCUREMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF PROCUREMENT AND LOGISTICS MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF PROCUREMENT AND SUPPLIES MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF PROCUREMENT AND SUPPLY CHAIN MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF PROJECT DEVELOPMENT AND MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF PROJECT MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF PROJECT PLANNING & MANAGEMENT": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF PROJECT PLANNING AND MANAGEMENT": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF PSYCHOLOGY": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF PSYCHOLOGY ( WITH IT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF PUBLIC HEALTH": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF PUBLIC POLICY AND ADMINISTRATION": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF PURCHASING & SUPPLIES MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF PURCHASING AND SUPPLIES MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF PURCHASING AND SUPPLY CHAIN MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF QUANTITY SURVEYING": {
+  "cluster": "6",
+  "subcluster": "6A"
+ },
+ "BACHELOR OF RADIOGRAPHY": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF REAL ESTATE": {
+  "cluster": "6",
+  "subcluster": "6C"
+ },
+ "BACHELOR OF SCIENCE": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE ( AGRICULTURAL ECONOMICS AND RESOURCE MANAGEMENT)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE ( AGRICULTURAL ECONOMICS, WITH IT)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE ( APPLIED STATISTICS WITH COMPUTING)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE ( BIO-RESOURCES MANAGEMENT AND CONSERVATION)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE ( ENVIRONMENTAL CHEMISTRY)": {
+  "cluster": "9",
+  "subcluster": "9D"
+ },
+ "BACHELOR OF SCIENCE ( ENVIRONMENTAL SCIENCE AND RESOURCE MANAGEMENT )": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE ( HEALTH RECORDS AND INFORMATION MANAGEMENT)": {
+  "cluster": "13",
+  "subcluster": "13G"
+ },
+ "BACHELOR OF SCIENCE ( SUSTAINABLE ENERGY & CLIMATE CHANGE SYSTEMS)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (ACCOUNTANCY)": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF SCIENCE (ACCOUNTING & FINANCE, WITH IT)": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF SCIENCE (ACCOUNTING)": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF SCIENCE (ACTUARIAL SCIENCE WITH IT)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (ACTUARIAL SCIENCE)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (ACTUARIAL SCIENCE, WITH IT)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (AGRI BUSINESS MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE (AGRIBUSINESS MANAGEMENT & TRADE)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRIBUSINESS MANAGEMENT)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRIBUSINESS MANAGEMENT, WITH IT)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRIBUSINESS)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL & BIO-SYSTEMS ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5D"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL AND BIOSYSTEMS ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5D"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL BIOTECHNOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL ECONOMICS": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL ECONOMICS & RESOURCE MANAGEMENT)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL ECONOMICS AND RESOURCE MANAGEMENT)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL ECONOMICS AND RURAL DEVELOPMENT)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL ECONOMICS)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL EDUCATION & EXTENSION)": {
+  "cluster": "19",
+  "subcluster": "19I"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL EDUCATION AND EXTENSION)": {
+  "cluster": "19",
+  "subcluster": "19I"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5D"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL EXTENSION AND EDUCATION)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL EXTENSION AND RURAL DEVELOPMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL EXTENSION EDUCATION)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURAL RESOURCE MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURE & BIOTECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURE & HUMAN ECOLOGY EXTENSION)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURE AND BIOTECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURE BIOTECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURE ECONOMICS & RESOURCE MANAGEMENT)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURE EDUCATION & EXTENSION)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURE EDUCATION AND EXTENSION)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURE EDUCATION AND EXTENSION, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRICULTURE)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGROFORESTRY & RURAL DEVELOPMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (AGRONOMY, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (ANALYTICAL CHEMISTRY WITH MANAGEMENT)": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF SCIENCE (ANALYTICAL CHEMISTRY)": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF SCIENCE (ANALYTICAL CHEMISTRY, WITH IT)": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF SCIENCE (ANIMAL HEALTH & PRODUCTION)": {
+  "cluster": "15",
+  "subcluster": "15A"
+ },
+ "BACHELOR OF SCIENCE (ANIMAL HEALTH AND PRODUCTION)": {
+  "cluster": "15",
+  "subcluster": "15A"
+ },
+ "BACHELOR OF SCIENCE (ANIMAL HEALTH, PRODUCTION & PROCESSING)": {
+  "cluster": "15",
+  "subcluster": "15A"
+ },
+ "BACHELOR OF SCIENCE (ANIMAL PRODUCTION & HEALTH MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15A"
+ },
+ "BACHELOR OF SCIENCE (ANIMAL SCIENCE & MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15B"
+ },
+ "BACHELOR OF SCIENCE (ANIMAL SCIENCE)": {
+  "cluster": "15",
+  "subcluster": "15B"
+ },
+ "BACHELOR OF SCIENCE (ANIMAL SCIENCE, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15B"
+ },
+ "BACHELOR OF SCIENCE (APPAREL & FASHION TECHNOLOGY)": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF SCIENCE (APPLIED AQUATIC SCIENCE)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (APPLIED BIOENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5E"
+ },
+ "BACHELOR OF SCIENCE (APPLIED BIOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (APPLIED COMPUTER SCIENCE)": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE (APPLIED STATISTICS WITH COMPUTING)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (APPLIED STATISTICS WITH PROGRAMMING)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE (APPLIED STATISTICS)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (APPLIED STATISTICS, WITH IT)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (AQUACULTURE AND FISHERIES TECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE (ASTRONOMY AND ASTROPHYSICS)": {
+  "cluster": "4",
+  "subcluster": "4B"
+ },
+ "BACHELOR OF SCIENCE (B.SC)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (BASIC SCIENCE, WITH IT)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (BIOCHEMISTRY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (BIOCHEMISTRY AND MOLECULAR BIOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (BIOCHEMISTRY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (BIOCHEMISTRY, WITH IT)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (BIOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (BIOMEDICAL ENGINEERING)": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (BIOMEDICAL SCIENCE & TECHNOLOGY)": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (BIOMEDICAL SCIENCE AND TECHNOLOGY": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (BIOMEDICAL SCIENCE AND TECHNOLOGY)": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (BIOSTATISTICS)": {
+  "cluster": "13",
+  "subcluster": "13E"
+ },
+ "BACHELOR OF SCIENCE (BIOSYSTEMS ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5D"
+ },
+ "BACHELOR OF SCIENCE (BIOTECHNOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (BOTANY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (BSC.)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (BUSINESS COMPUTING)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE (CHEMISTRY)": {
+  "cluster": "9",
+  "subcluster": "9D"
+ },
+ "BACHELOR OF SCIENCE (CIVIL AND STRUCTURAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (CIVIL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (CLIMATE CHANGE ADAPTATION AND SUSTAINABLE DEVELOPMENT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (CLIMATE CHANGE AND DEVELOPMENT, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (CLOTHING TEXTILE & INTERIOR DESIGN)": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF SCIENCE (CLOUD COMPUTING AND INFORMATION SECURITY)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE (COASTAL & MARINE RESOURCE MANAGEMENT": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE (COMMUNICATION & JOURNALISM)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF SCIENCE (COMMUNICATION AND JOURNALISM)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF SCIENCE (COMMUNICATION AND PUBLIC RELATIONS)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF SCIENCE (COMMUNITY DEVELOPMENT AND ENVIRONMENT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE (COMMUNITY DEVELOPMENT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE (COMMUNITY HEALTH & DEVELOPMENT)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (COMMUNITY HEALTH AND DEVELOPMENT)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (COMMUNITY RESOURCE MANAGEMENT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE (COMPUTER SCIENCE": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE (COMPUTER SCIENCE & TECHNOLOGY)": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE (COMPUTER SCIENCE)": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE (COMPUTER SECURITY AND FORENSICS)": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE (COMPUTER TECHNOLOGY)": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE (CONSERVATION BIOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (CONTROL AND INSTRUMENTATION)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (CORPORATE COMMUNICATION AND MANAGEMENT)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF SCIENCE (COUNSELLING PSYCHOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE (CRIMINOLOGY AND SECURITY MANAGEMENT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE (CRIMINOLOGY AND SECURITY STUDIES)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE (CROP IMPROVEMENT & PROTECTION)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (CROP PROTECTION)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (DAIRY TECHNOLOGY & MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (DISASTER MANAGEMENT AND SUSTAINABLE DEVELOPMENT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (DISASTER MITIGATION AND SUSTAINABLE DEVELOPMENT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (DISASTER PREPAREDNESS AND ENVIRONMENTALTECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (DISASTER RISK MANAGEMENT AND SUSTAINABLE DEVELOPMENT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (DRY LAND, AGRICULTURE & ENTERPRISE DEVELOPMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (DRYLAND AGRICULTURE)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (DRYLAND ANIMAL SCIENCE)": {
+  "cluster": "15",
+  "subcluster": "15B"
+ },
+ "BACHELOR OF SCIENCE (EARTH SCIENCE, WITH IT)": {
+  "cluster": "4",
+  "subcluster": "4B"
+ },
+ "BACHELOR OF SCIENCE (ECO-TOURISM, HOTEL AND INSTITUTION MANAGEMENT, WITH IT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE (ECONOMICS & STATISTICS)": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE (ECONOMICS AND STATISTICS)": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE (ECOTOURISM & HOSPITALITY MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE (ELECTRICAL & ELECTRONICS ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (ELECTRICAL AND COMMUNICATION ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (ELECTRICAL AND ELECTRONIC ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (ELECTRICAL AND ELECTRONICS ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (ELECTRONIC AND COMPUTER ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (ELECTRONICS)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (EMERGENCY MANAGEMENT & HUMANITARIAN ASSISTANCE)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (ENERGY ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (ENTREPRENEURSHIP AND SMALL ENTERPRISES MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE (ENTREPRENEURSHIP STUDIES)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE (ENTREPRENEURSHIP)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE (ENVIRONMENTAL CONSERVATION AND NATURAL RESOURCES MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (ENVIRONMENTAL EDUCATION)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (ENVIRONMENTAL HEALTH)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (ENVIRONMENTAL HORTICULTURE & LANDSCAPING TECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (ENVIRONMENTAL MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (ENVIRONMENTAL SCIENCE)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (ENVIRONMENTAL SCIENCE, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (ENVIRONMENTAL SCIENCES)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (EVENT AND CONVENTION MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE (EXERCISE & SPORT SCIENCE)": {
+  "cluster": "12",
+  "subcluster": "12A"
+ },
+ "BACHELOR OF SCIENCE (FASHION DESIGN & MARKETING)": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF SCIENCE (FASHION DESIGN AND TEXTILE TECHNOLOGY)": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF SCIENCE (FINANCE)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (FINANCIAL ENGINEERING)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (FISHERIES & AQUATIC SCIENCES)": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE (FISHERIES AND NATURAL RESOURCES, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE (FOOD NUTRITION & DIETETICS)": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE (FOOD NUTRITION AND DIETETICS)": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE (FOOD OPERATIONS MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF SCIENCE (FOOD SCIENCE & NUTRITION)": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE (FOOD SCIENCE & TECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF SCIENCE (FOOD SCIENCE AND MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF SCIENCE (FOOD SCIENCE AND NUTRITION)": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE (FOOD SCIENCE AND TECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF SCIENCE (FOOD SERVICE AND HOSPITALITY MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF SCIENCE (FOOD, NUTRITION & DIETETICS)": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE (FORENSIC BIOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (FORENSIC SCIENCE)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (FORESTRY)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (GEOGRAPHY AND NATURAL RESOURCE MANAGEMENT, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (GEOGRAPHY)": {
+  "cluster": "16",
+  "subcluster": "16A"
+ },
+ "BACHELOR OF SCIENCE (GEOLOGY)": {
+  "cluster": "4",
+  "subcluster": "4B"
+ },
+ "BACHELOR OF SCIENCE (GEOMATIC ENGINEERING)": {
+  "cluster": "4",
+  "subcluster": "4A"
+ },
+ "BACHELOR OF SCIENCE (GEOPHYSICS AND MINERALOGY)": {
+  "cluster": "4",
+  "subcluster": "4B"
+ },
+ "BACHELOR OF SCIENCE (GEOPHYSICS)": {
+  "cluster": "4",
+  "subcluster": "4B"
+ },
+ "BACHELOR OF SCIENCE (GEOSPATIAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (GEOSPATIAL INFORMATION SCIENCE)": {
+  "cluster": "4",
+  "subcluster": "4A"
+ },
+ "BACHELOR OF SCIENCE (GEOSPATIAL INFORMATION SCIENCE, WITH IT)": {
+  "cluster": "4",
+  "subcluster": "4A"
+ },
+ "BACHELOR OF SCIENCE (GRAPHIC, COMMUNICATION AND ADVERTISING)": {
+  "cluster": "3",
+  "subcluster": "3E"
+ },
+ "BACHELOR OF SCIENCE (HEALTH PROMOTION AND SPORTS SCIENCE)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (HEALTH PROMOTION)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (HEALTH RECORDS & INFORMATION MGT.)": {
+  "cluster": "13",
+  "subcluster": "13G"
+ },
+ "BACHELOR OF SCIENCE (HEALTH RECORDS AND INFORMATICS)": {
+  "cluster": "13",
+  "subcluster": "13G"
+ },
+ "BACHELOR OF SCIENCE (HEALTH RECORDS AND INFORMATION MANAGEMENT, WITH IT)": {
+  "cluster": "13",
+  "subcluster": "13G"
+ },
+ "BACHELOR OF SCIENCE (HEALTH RECORDS AND INFORMATION TECHNOLOGY)": {
+  "cluster": "13",
+  "subcluster": "13G"
+ },
+ "BACHELOR OF SCIENCE (HORTICULTURE)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (HORTICULTURE, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (HOSPITALITY & TOURISM MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE (HOSPITALITY AND TOURISM MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE (HOSPITALITY MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE (HUMAN NUTRITION AND DIETETICS)": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE (HUMAN RESOURCE MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE (HYDROLOGY AND WATER RESOURCES MANAGEMENT)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (INDUSTRIAL CHEMISTRY WITH MANAGEMENT)": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF SCIENCE (INDUSTRIAL CHEMISTRY)": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF SCIENCE (INDUSTRIAL CHEMISTRY, WITH IT)": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF SCIENCE (INDUSTRIAL MATHEMATICS)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (INFORMATICS)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE (INFORMATION AND COMMUNICATION TECHNOLOGY MANAGEMENT)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF SCIENCE (INFORMATION AND COMMUNICATION TECHNOLOGY)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF SCIENCE (INFORMATION SCIENCE)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE (INFORMATION SCIENCES AND KNOWLEDGE MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE (INFORMATION SCIENCES)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE (INFORMATION STUDIES)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE (INFORMATION SYSTEMS)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE (INFORMATION TECHNOLOGY)": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF SCIENCE (INSTRUMENTATION & CONTROL)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (INTEGRATED FOREST RESOURCES MANAGEMENT)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (LABORATORY SCIENCE AND TECHNOLOGY)": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (LAND ADMINISTRATION)": {
+  "cluster": "6",
+  "subcluster": "6C"
+ },
+ "BACHELOR OF SCIENCE (LAND RESOURCE PLANNING & MANAGEMENT)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF SCIENCE (MANAGEMENT OF AGRO-ECOSYSTEM AND ENVIRONMENT)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE (MANUFACTURING ENGINEERING & TECHNOLOGY)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (MARINE BIOLOGY & FISHERIES)": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE (MARINE ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICAL SCIENCES, WITH IT)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICS & BUSINESS STUDIES, WITH IT)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICS & COMPUTER SCIENCE)": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICS & ECONOMICS, WITH IT": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICS AND COMPUTER SCIENCE)": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICS AND COMPUTING)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICS AND ECONOMICS)": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICS WITH COMPUTING)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICS WITH IT)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (MATHEMATICS)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (MECHANICAL AND INDUSTRIAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (MECHANICAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL BIOCHEMISTRY)": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL BIOTECHNOLOGY, WITH IT)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL ENGINEERING)": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL LABORATORY SCIENCE & TECHNOLOGY)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL LABORATORY SCIENCE)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL LABORATORY SCIENCES)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL LABORATORY SCIENCES, WITH IT)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL MICROBIOLOGY)": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL PSYCHOLOGY)": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (MEDICAL SOCIAL WORK)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (METEOROLOGY)": {
+  "cluster": "4",
+  "subcluster": "4B"
+ },
+ "BACHELOR OF SCIENCE (MICROBIOLOGY AND BIOTECHNOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (MICROBIOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (MICROPROCESSOR TECHNOLOGY AND INSTRUMENTATION)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (MINING AND MINERAL PROCESSING ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (MINING PHYSICS)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (MOLECULAR & CELLULAR BIOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE (NATURAL RESOURCE MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (NATURAL RESOURCES MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (NURSING AND PUBLIC HEALTH)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (NURSING)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (NURSING, WITH IT)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (NUTRACEUTICAL SCIENCE AND TECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE (NUTRITION AND DIETETICS, WITH IT)": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE (OCCUPATIONAL HEALTH & SAFETY)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (OPERATIONS RESEARCH)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (OPTOMETRY AND VISION SCIENCES)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (PARAMEDIC SCIENCE)": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE (PETROLEUM CHEMISTRY)": {
+  "cluster": "9",
+  "subcluster": "9D"
+ },
+ "BACHELOR OF SCIENCE (PETROLEUM ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (PHYSICAL THERAPY)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (PHYSICS WITH APPROPRIATE TECHNOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9C"
+ },
+ "BACHELOR OF SCIENCE (PHYSICS)": {
+  "cluster": "9",
+  "subcluster": "9C"
+ },
+ "BACHELOR OF SCIENCE (PHYSICS, WITH IT)": {
+  "cluster": "9",
+  "subcluster": "9C"
+ },
+ "BACHELOR OF SCIENCE (PHYSIOTHERAPY)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE (POPULATION HEALTH)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (PROCUREMENT AND SUPPLIES MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE (PROJECT PLANNING AND MANAGEMENT)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF SCIENCE (PROJECT PLANNING MANAGEMENT)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF SCIENCE (PUBLIC ADMINISTRATION AND LEADERSHIP)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE (PUBLIC HEALTH)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (PUBLIC HEALTH, WITH IT)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE (PUBLIC MANAGEMENT AND DEVELOPMENT)": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE (RANGE MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (REAL ESTATE)": {
+  "cluster": "6",
+  "subcluster": "6C"
+ },
+ "BACHELOR OF SCIENCE (RECORDS MANAGEMENT AND INFORMATION TECHNOLOGY)": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF SCIENCE (RECREATION AND SPORTS MANAGEMENT)": {
+  "cluster": "12",
+  "subcluster": "12A"
+ },
+ "BACHELOR OF SCIENCE (RENEWABLE ENERGY AND BIOFUELS TECHNOLOGY)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (RENEWABLE ENERGY AND ENVIRONMENTAL PHYSICS)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (RENEWABLE ENERGY TECHNOLOGY AND MANAGEMENT)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (RENEWABLE ENERGY TECHNOLOGY)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (RENEWABLE ENERGY)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (SEED SCIENCE & TECHNOLOGY": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (SOIL SCIENCE)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (SOILS & LAND USE MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (SPATIAL PLANNING": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF SCIENCE (STATISTICS & PROGRAMMING)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE (STATISTICS)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE (STRATEGIC MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE (SUGAR AND AGRO PROCESSING TECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF SCIENCE (TELECOMMUNICATION & INFORM. TECH)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (TELECOMMUNICATION AND INFORMATION ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE (TOURISM MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE (URBAN DESIGN AND DEVELOPMENT)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (UTILIZATION & SUSTAINABILITY OF ARID LANDS (USAL)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (WATER AND ENVIRONMENT MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (WATER AND ENVIRONMENTAL ENGINEERING)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (WATER RESOURCE MANAGEMENT)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE (WATER RESOURCES AND ENVIRONMENT MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (WILDLIFE ENTERPRISE MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (WILDLIFE ENTERPRISES & MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (WILDLIFE MANAGEMENT AND CONSERVATION)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (WILDLIFE MANAGEMENT)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (WOOD SCIENCE AND INDUSTRIAL PROCESSES)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE (ZOOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE AGRIBUSINESS MANAGEMENT": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE AGRIBUSINESS MANAGEMENT AND ENTERPRISE DEVELOPMENT": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE AGRICULTURAL EXTENSION AND EDUCATION": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE CHEMISTRY ( INORGANIC, PHYSICAL AND ORGANIC OPTIONS)": {
+  "cluster": "9",
+  "subcluster": "9D"
+ },
+ "BACHELOR OF SCIENCE CLINICAL MEDICINE": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE CLINICAL MEDICINE AND COMMUNITY HEALTH": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE DATA SCIENCE": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE GENOMIC SCIENCE": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE HEALTH INFORMATION MANAGEMENT AND INFORMATICS": {
+  "cluster": "13",
+  "subcluster": "13G"
+ },
+ "BACHELOR OF SCIENCE HORTICULTURE": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE IN ACCOUNTING": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF SCIENCE IN ACTUARIAL SCIENCE": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN AGRIBUSINESS ECONOMICS AND FOOD INDUSTRY MANAGEMENT": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE IN AGRIBUSINESS MANAGEMENT": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE IN AGRIBUSINESS MANAGEMENT AND ENTERPRISE DEVELOPMENT": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE IN AGRIBUSINESS MANAGEMENT AND ENTREPRENEURSHIP": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE IN AGRIBUSINESS MANAGEMENT AND MARKETING": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE IN AGRIBUSINESS MANAGEMENT AND TRADE": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE IN AGRIBUSINESS MANGEMENT": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE IN AGRICULTURAL ECONOMICS": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE IN AGRICULTURAL ECONOMICS AND RURAL DEVELOPMENT": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE IN AGRICULTURAL EDUCATION & EXTENSION": {
+  "cluster": "19",
+  "subcluster": "19I"
+ },
+ "BACHELOR OF SCIENCE IN AGRICULTURAL EXTENSION EDUCATION": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE IN AGRICULTURE": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE IN AGRICULTURE AND EXTENSION": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE IN AGRICULTURE EDUCATION & EXTENSION": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE IN ANALYTICAL CHEMISTRY": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF SCIENCE IN ANALYTICAL CHEMISTRY WITH COMPUTING": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF SCIENCE IN ANIMAL HEALTH AND PRODUCTION": {
+  "cluster": "15",
+  "subcluster": "15A"
+ },
+ "BACHELOR OF SCIENCE IN ANIMAL HEALTH MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN ANIMAL PRODUCTION AND PROCESSING": {
+  "cluster": "15",
+  "subcluster": "15A"
+ },
+ "BACHELOR OF SCIENCE IN ANIMAL PRODUCTS TECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN ANIMAL SCIENCE": {
+  "cluster": "15",
+  "subcluster": "15B"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED ACCOUNTING": {
+  "cluster": "10",
+  "subcluster": "10A"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED ANIMAL LABORATORY SCIENCE": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED COMPUTER SCIENCE": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED COMPUTING": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED OPTICS AND LASERS": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED PHYSICS": {
+  "cluster": "5",
+  "subcluster": "5E"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED PHYSICS AND COMPUTER SCIENCE": {
+  "cluster": "5",
+  "subcluster": "5E"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED STATISTICS": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED STATISTICS AND DATA SCIENCE": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED STATISTICS AND ECONOMICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE IN APPLIED STATISTICS WITH COMPUTING": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN AQUACULTURE AND FISHERIES MANAGEMENT": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE IN AQUACULTURE TECHNOLOGY": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE IN AUTOMOTIVE TECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN AVIATION MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN BANKING AND FINANCE": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN BIOCHEMISTRY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE IN BIOLOGY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE IN BIOLOGY ( BOTANY OR ZOOLOGY OPTION)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE IN BIOMEDICAL SCIENCE": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE IN BIOMEDICAL SCIENCES & TECHNOLOGY": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE IN BIOSAFETY AND BIOSECURITY": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN BIOSTATISTICS": {
+  "cluster": "13",
+  "subcluster": "13E"
+ },
+ "BACHELOR OF SCIENCE IN BIOTECHNOLOGY AND BIOSAFETY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN BUSINESS INNOVATION AND TECHNOLOGY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN CHEMISTRY": {
+  "cluster": "9",
+  "subcluster": "9D"
+ },
+ "BACHELOR OF SCIENCE IN CIVIL ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE IN CLIMATE CHANGE AND AGROFORESTRY": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE IN CLINICAL MEDICINE": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN CLINICAL MEDICINE AND COMMUNITY HEALTH": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN CO-OPERATIVE AND ENTREPRENEURSHIP MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN COMMUNITY HEALTH": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN COMMUNITY HEALTH AND DEVELOPMENT": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN COMMUNITY HEALTH EDUCATION": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN COMMUNITY HEALTH PRACTICE": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN COMMUNITY NUTRITION AND HEALTH DEVELOPMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN COMMUNITY RESOURCE MANAGEMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE IN COMPUTER INFORMATION SYSTEMS": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE IN COMPUTER SCIENCE": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN COMPUTER SCIENCE AND APPLIED PHYSICS": {
+  "cluster": "5",
+  "subcluster": "5E"
+ },
+ "BACHELOR OF SCIENCE IN COMPUTER SCIENCE AND MATHEMATICS": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN COMPUTER SECURITY AND FORENSICS": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN COMPUTER SYSTEMS ENGINEERING": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF SCIENCE IN COMPUTER TECHNOLOGY": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN COMPUTING AND INFORMATION SYSTEMS": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE IN CONFLICT RESOLUTION AND HUMANITARIAN ASSISTANCE": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE IN CYBER SECURITY": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN CYBER SECURITY AND DIGITAL FORENSICS": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN DATA SCIENCE": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN DATA SCIENCE AND ANALYTICS": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN DENTAL TECHNOLOGY": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE IN DISASTER MANAGEMENT": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE IN DRYLAND RESOURCE MANAGEMENT": {
+  "cluster": "16",
+  "subcluster": "16A"
+ },
+ "BACHELOR OF SCIENCE IN DRYLAND SUSTAINABILITY SCIENCE WITH TECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN E-COMMERCE": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN ECO-TOURISM, HOTEL AND INSTITUTION MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE IN ECOLOGY AND ENVIRONMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN ECONOMICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE IN ECONOMICS AND MATHEMATICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE IN ECONOMICS AND STATISTICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE IN ECOTOURISM": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE IN ELECTRICAL & ELECTRONIC ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE IN ELECTRICAL AND ELECTRONIC ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE IN ELECTRICAL AND ELECTRONICS ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE IN ELECTRICAL AND TELECOMMUNICATION ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE IN ELECTRONICS": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE IN ELECTRONICS AND COMPUTER ENGINEERING TECHNOLOGY": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE IN EMPLOYMENT AND LABOUR STUDIES": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN ENERGY AND ENVIRONMENTAL TECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN ENTOMOLOGY AND PARASITOLOGY": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN ENTREPRENEURSHIP": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN ENVIRONMENT, LANDS AND SUSTAINABLE INFRASTRUCTURE": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN ENVIRONMENTAL ECONOMICS AND POLICY": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE IN ENVIRONMENTAL HEALTH": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN ENVIRONMENTAL HEALTH SCIENCES (PUBLIC HEALTH)": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN ENVIRONMENTAL MANAGEMENT AND CONSERVATION": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE IN ENVIRONMENTAL RESOURCE MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN ENVIRONMENTAL SCIENCE": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE IN ENVIRONMENTAL SCIENCE AND TECHNOLOGY": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE IN ENVIRONMENTAL STUDIES": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE IN EPIDEMIOLOGY AND BIOSTATISTICS": {
+  "cluster": "13",
+  "subcluster": "13E"
+ },
+ "BACHELOR OF SCIENCE IN EPIDEMIOLOGY AND MEDICAL STATISTICS": {
+  "cluster": "13",
+  "subcluster": "13E"
+ },
+ "BACHELOR OF SCIENCE IN ETHNOBOTANY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE IN FASHION AND TEXTILE DESIGN": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF SCIENCE IN FASHION DESIGN AND MARKETING": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF SCIENCE IN FINANCE": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN FINANCE AND STATISTICS": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN FINANCIAL ECONOMICS": {
+  "cluster": "10",
+  "subcluster": "10B"
+ },
+ "BACHELOR OF SCIENCE IN FINANCIAL ENGINEERING": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN FISHERIES AND AQUACULTURE": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE IN FISHERIES AND AQUACULTURE TECHNOLOGY": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE IN FISHERIES AND OCEANOGGRAPHY": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE IN FOOD NUTRITION AND DIETETICS": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE IN FOOD SCIENCE AND TECHNOLOGY": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF SCIENCE IN FOOD TECHNOLOGY & QUALITY ASSURANCE": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF SCIENCE IN FOOD, NUTRITION AND DIETETICS": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE IN FOODS, NUTRITION AND DIETETICS": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE IN FORESTRY": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE IN FORESTRY ECOSYSTEM MANAGEMENT": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE IN GAMING AND ANIMATION TECHNOLOGY": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN GEOINFORMATICS": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE IN GEOLOGY": {
+  "cluster": "4",
+  "subcluster": "4B"
+ },
+ "BACHELOR OF SCIENCE IN GEOMATICS AND GEOSPATIAL INFORMATION SYSTEMS": {
+  "cluster": "4",
+  "subcluster": "4A"
+ },
+ "BACHELOR OF SCIENCE IN GEOSPATIAL INFORMATION SCIENCE AND REMOTE SENSING": {
+  "cluster": "4",
+  "subcluster": "4A"
+ },
+ "BACHELOR OF SCIENCE IN GLOBAL HEALTH AND TRAVEL MEDICINE": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN HEALTH INFORMATICS": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE IN HEALTH RECORDS AND INFORMATION MANAGEMENT": {
+  "cluster": "13",
+  "subcluster": "13G"
+ },
+ "BACHELOR OF SCIENCE IN HEALTH RECORDS AND INFORMATION TECHNOLOGY": {
+  "cluster": "13",
+  "subcluster": "13G"
+ },
+ "BACHELOR OF SCIENCE IN HEALTH RECORDS MANAGEMENT & INFORMATICS": {
+  "cluster": "13",
+  "subcluster": "13G"
+ },
+ "BACHELOR OF SCIENCE IN HEALTH SYSTEMS MANAGEMENT": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN HEALTH SYSTEMS MANAGEMENT AND DEVELOPMENT": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN HEALTH SYSTEMS MANAGEMENT AND ECONOMICS": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN HOSPITALITY AND TOURISM MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE IN HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE IN HOTEL AND HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE IN HUMAN NUTRITION AND DIETETICS": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE IN HUMAN REOURCE MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN HUMAN RESOURCE MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE IN HUMAN RESOURCE MANAGEMENT, WITH IT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE IN INDUSTRIAL CHEMISTRY": {
+  "cluster": "5",
+  "subcluster": "5B"
+ },
+ "BACHELOR OF SCIENCE IN INFORMATICS": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE IN INFORMATION SCIENCE": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN INFORMATION SCIENCES": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN INFORMATION SECURITY AND FORENSICS": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN INFORMATION SYSTEMS AND KNOWLEDGE MANAGEMENT": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF SCIENCE IN INTERNATIONAL BUSINESS MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN LABORATORY SCIENCES": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE IN LABORATORY TECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN LEATHER TECHNOLOGY": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE IN LIBRARY AND INFORMATION SCIENCE": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN LIBRARY AND KNOWLEDGE MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN MARINE RESOURCE MANAGEMENT": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE IN MARITIME MANAGEMENT (COMMERCIAL)": {
+  "cluster": "15",
+  "subcluster": "15D"
+ },
+ "BACHELOR OF SCIENCE IN MARKETING MANAGEMENT, WITH IT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN MARKETING, INNOVATION AND TECHNOLOGY": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN MARKETING, WITH IT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN MATERIALS AND METALLURGICAL ENGINEERING": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN MATHEMATICS": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN MATHEMATICS & COMPUTER SCIENCE": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN MATHEMATICS & PHYSICS": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN MATHEMATICS ( PURE MATHEMATICS, APPLIED MATHEMATICS AND STATISTICS)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN MATHEMATICS AND COMPUTER SCIENCE": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN MATHEMATICS AND FINANCE": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN MATHEMATICS AND MODELLING PROCESSES": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN MATHEMATICS AND STATISTICS WITH IT": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN MECHANICAL AND MANUFACTURING ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE IN MECHANICAL ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE IN MECHATRONIC ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE IN MEDIA AND DIGITAL COMMUNICATION": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF SCIENCE IN MEDICAL BIOTECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE IN MEDICAL LABORATORY SCIENCES": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE IN MEDICAL MICROBIOLOGY": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE IN MICROBIOLOGY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE IN MICROBIOLOGY AND BIOTECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE IN MIDWIFERY": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE IN MIDWIFERY WITH REPRODUCTIVE HEALTH": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE IN MOLECULAR BIOLOGY AND FORENSIC TECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE IN NATURAL RESOURCE MANAGEMENT": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE IN NAUTICAL SCIENCE": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN NETWORK ENGINEERING AND CYBER SECURITY": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN NETWORKS AND COMMUNICATION SYSTEMS": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF SCIENCE IN NURSING": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE IN NURSING SCIENCE": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF SCIENCE IN NUTRITION AND DIETETICS": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF SCIENCE IN OCCUPATIONAL THERAPY": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN ORAL HEALTH": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF SCIENCE IN PARKS, RECREATION AND LEISURE MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN PHYSICS": {
+  "cluster": "9",
+  "subcluster": "9C"
+ },
+ "BACHELOR OF SCIENCE IN POLYMER CHEMISTRY": {
+  "cluster": "9",
+  "subcluster": "9D"
+ },
+ "BACHELOR OF SCIENCE IN PROCUREMENT AND CONTRACT MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE IN PUBLIC HEALTH": {
+  "cluster": "13",
+  "subcluster": "13C"
+ },
+ "BACHELOR OF SCIENCE IN PUBLIC MANAGEMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SCIENCE IN RANGELAND ECOSYSTEM MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN REAL ESTATE MANAGEMENT": {
+  "cluster": "6",
+  "subcluster": "6C"
+ },
+ "BACHELOR OF SCIENCE IN RENEWABLE ENERGY AND TECHNOLOGY": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE IN RENEWABLE ENERGY TECHNOLOGY": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE IN SOFTWARE DEVELOPMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN SOFTWARE ENGINEERING": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN SOIL ENVIRONMENT & LAND USE MANAGEMENT)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE IN STATISTICAL MODELLING WITH DATA SCIENCE": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN STATISTICS": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE IN STATISTICS & COMPUTER SCIENCE": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE IN STATISTICS AND INFORMATION TECHNOLOGY": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF SCIENCE IN STATISTICS AND PROGRAMMING": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE IN SUPPLY CHAIN MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SCIENCE IN SURVEYING AND GEOMATICS ENGINEERING": {
+  "cluster": "4",
+  "subcluster": "4A"
+ },
+ "BACHELOR OF SCIENCE IN TELECOMMUNICATION": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE IN TELECOMMUNICATION AND INFORMATION TECHNOLOGY": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF SCIENCE IN TEXTILE TECHNOLOGY & APPLIED FASHION DESIGN": {
+  "cluster": "11",
+  "subcluster": "11A"
+ },
+ "BACHELOR OF SCIENCE IN TOURISM MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE IN TRAVEL AND TOURISM MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF SCIENCE INDUSTRIAL BIOTECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF SCIENCE MATHEMATICS AND COMPUTER SCIENCE": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF SCIENCE SANITATION AND WASTE MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE STATISTICS": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SCIENCE WITH EDUCATION": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE(AEROSPACE ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF SCIENCE(AGRIBUSINESS MANAGEMENT)": {
+  "cluster": "8",
+  "subcluster": "8A"
+ },
+ "BACHELOR OF SCIENCE(BIOLOGICAL SCIENCES)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF SCIENCE(BUSINESS INFORMATION SYSTEMS)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF SCIENCE(CONSTRUCTION MANAGEMENT)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF SCIENCE(ENVIRONMENTAL STUDIES)": {
+  "cluster": "15",
+  "subcluster": "15F"
+ },
+ "BACHELOR OF SCIENCE(FOOD SECURITY)": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF SCIENCE(HORTICULTURE)": {
+  "cluster": "15",
+  "subcluster": "15G"
+ },
+ "BACHELOR OF SCIENCE(PHYSICS, BIOLOGY,CHEMISTRY,MATHEMATICS)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF SECRETARIAL MANAGEMENT AND ADMINISTRATION": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF SECURITY SCIENCE AND MANAGEMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SOCIAL WORK": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SOCIAL WORK AND ADMINISTRATION": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SPORTS MANAGEMENT": {
+  "cluster": "12",
+  "subcluster": "12A"
+ },
+ "BACHELOR OF SPORTS SCIENCE & MANAGEMENT": {
+  "cluster": "12",
+  "subcluster": "12A"
+ },
+ "BACHELOR OF SUSTAINABLE COMMUNITY DEVELOPMENT": {
+  "cluster": "3",
+  "subcluster": "3D"
+ },
+ "BACHELOR OF SUSTAINABLE TOURISM AND HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF TECHNICAL EDUCATION": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TECHNOLOGY (APPLIED BIOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF TECHNOLOGY (APPLIED STATISTICS)": {
+  "cluster": "10",
+  "subcluster": "10C"
+ },
+ "BACHELOR OF TECHNOLOGY (BIOTECHNOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF TECHNOLOGY (BUILDING CONSTRUCTION)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF TECHNOLOGY (BUSINESS INFORMATION TECHNOLOGY)": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF TECHNOLOGY (CHEMICAL ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF TECHNOLOGY (CIVIL ENGINEERING TECHNOLOGY)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF TECHNOLOGY (COMMUNICATION AND COMPUTER NETWORKS)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF TECHNOLOGY (COMPUTER TECHNOLOGY)": {
+  "cluster": "7",
+  "subcluster": "7A"
+ },
+ "BACHELOR OF TECHNOLOGY (CONSTRUCTION MANAGEMENT)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF TECHNOLOGY (DESIGN)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TECHNOLOGY (ELECTRICAL AND ELECTRONIC ENGINEERING TECHNOLOGY)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF TECHNOLOGY (ENVIRONMENTAL RESOURCE MANAGEMENT)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TECHNOLOGY (FOOD SCIENCE AND TECHNOLOGY)": {
+  "cluster": "15",
+  "subcluster": "15E"
+ },
+ "BACHELOR OF TECHNOLOGY (GEOINFORMATION TECHNOLOGY)": {
+  "cluster": "4",
+  "subcluster": "4A"
+ },
+ "BACHELOR OF TECHNOLOGY (HOTEL AND RESTAURANT MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF TECHNOLOGY (INDUSTRIAL AND APPLIED CHEMISTRY)": {
+  "cluster": "9",
+  "subcluster": "9D"
+ },
+ "BACHELOR OF TECHNOLOGY (INFORMATION STUDIES)": {
+  "cluster": "7",
+  "subcluster": "7B"
+ },
+ "BACHELOR OF TECHNOLOGY (INFORMATION TECHNOLOGY)": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF TECHNOLOGY (INSTITUTIONAL MANAGEMENT)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TECHNOLOGY (JOURNALISM AND MASS COMMUNICATION)": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF TECHNOLOGY (MECHANICAL ENGINEERING TECHNOLOGY)": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF TECHNOLOGY (MEDICAL LABORATORY SCIENCE)": {
+  "cluster": "13",
+  "subcluster": "13B"
+ },
+ "BACHELOR OF TECHNOLOGY (NUTRITION AND DIETETICS)": {
+  "cluster": "15",
+  "subcluster": "15C"
+ },
+ "BACHELOR OF TECHNOLOGY (OFFICE ADMINISTRATION AND TECHNOLOGY)": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BACHELOR OF TECHNOLOGY (PRINTING TECHNOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TECHNOLOGY (PROPERTY MANAGEMENT AND REAL ESTATE)": {
+  "cluster": "6",
+  "subcluster": "6C"
+ },
+ "BACHELOR OF TECHNOLOGY (SCIENCE LABORATORY TECHNOLOGY)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TECHNOLOGY (TECHNICAL AND APPLIED PHYSICS)": {
+  "cluster": "5",
+  "subcluster": "5E"
+ },
+ "BACHELOR OF TECHNOLOGY (TELECOMMUNICATION AND INFORMATION ENGINEERING)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF TECHNOLOGY (TOURISM MANAGEMENT)": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF TECHNOLOGY EDUCATION": {
+  "cluster": "5",
+  "subcluster": "5F"
+ },
+ "BACHELOR OF TECHNOLOGY IN APPLIED CHEMISTRY (ANALYTICAL AND INDUSTRIAL OPTIONS)": {
+  "cluster": "9",
+  "subcluster": "9D"
+ },
+ "BACHELOR OF TECHNOLOGY IN APPLIED PHYSICS (ELECTRONICS & INSTRUMENTATION)": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF TECHNOLOGY IN BUILDING CONSTRUCTION": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF TECHNOLOGY IN CIVIL ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF TECHNOLOGY IN COMPUTER AND ELECTRONIC SYSTEMS": {
+  "cluster": "7",
+  "subcluster": "7C"
+ },
+ "BACHELOR OF TECHNOLOGY IN CONSTRUCTION MANAGEMENT": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF TECHNOLOGY IN COSMETOLOGY AND BEAUTY SCIENCE": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TECHNOLOGY IN ELECTRICAL AND COMPUTER ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF TECHNOLOGY IN ELECTRICAL AND ELECTRONIC ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF TECHNOLOGY IN HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF TECHNOLOGY IN INDUSTRIAL MICROBIOLOGY & BIOTECHNOLOGY": {
+  "cluster": "9",
+  "subcluster": "9B"
+ },
+ "BACHELOR OF TECHNOLOGY IN INFORMATION & COMMUNICATION TECHNOLOGY": {
+  "cluster": "3",
+  "subcluster": "3A"
+ },
+ "BACHELOR OF TECHNOLOGY IN INSTRUMENTATION & CONTROL ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF TECHNOLOGY IN MARINE ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF TECHNOLOGY IN MECHANICAL ENGINEERING": {
+  "cluster": "5",
+  "subcluster": "5A"
+ },
+ "BACHELOR OF TECHNOLOGY IN MECHANICAL VENTILATION AND AIR CONDITIONING": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TECHNOLOGY IN MEDICAL ENGINEERING": {
+  "cluster": "13",
+  "subcluster": "13F"
+ },
+ "BACHELOR OF TECHNOLOGY IN RENEWABLE ENERGY": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF TECHNOLOGY IN RENEWABLE ENERGY & ENVIRONMENTAL PHYSICS": {
+  "cluster": "5",
+  "subcluster": "5C"
+ },
+ "BACHELOR OF TECHNOLOGY IN WATER, IRRIGATION AND ENVIRONMENTAL ENGINEERING": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TECHNOLOGY IN WATER, SANITATION AND HABITAT ENGINEERING": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF THE BUILT ENVIRONMENT (URBAN AND REGIONAL PLANNING)": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF THEOLOGY": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF THEOLOGY IN PASTORAL STUDIES": {
+  "cluster": "20",
+  "subcluster": "20A"
+ },
+ "BACHELOR OF TOURISM AND HOSPITALITY MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF TOURISM AND TRAVEL MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF TOURISM MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2B"
+ },
+ "BACHELOR OF TRAVEL & TOURS MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TRAVEL & TOURS OPERATIONS MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF TRAVEL AND TOURS OPERATIONS MANAGEMENT": {
+  "cluster": "9",
+  "subcluster": "9A"
+ },
+ "BACHELOR OF URBAN AND REGIONAL PLANNING": {
+  "cluster": "6",
+  "subcluster": "6B"
+ },
+ "BACHELOR OF VETERINARY MEDICINE": {
+  "cluster": "13",
+  "subcluster": "13D"
+ },
+ "BACHELOR OF VETERINARY MEDICINE AND SURGERY": {
+  "cluster": "13",
+  "subcluster": "13A"
+ },
+ "BACHELOR PURCHASING AND SUPPLIES MANAGEMENT": {
+  "cluster": "2",
+  "subcluster": "2A"
+ },
+ "BSC (SCIENCE)": {
+  "cluster": "9",
+  "subcluster": "9A"
+ }
+}
