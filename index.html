@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cymor Course Checker | KUCCPS Course & Cluster Point Checker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= LANDING ================= -->
+<section id="landing" class="screen active">
+  <div class="floating-grades" id="floatingGrades"></div>
+  <div class="landing-content">
+    <h1>Cymor <span>Course Checker</span></h1>
+    <p class="tagline">Find every degree course you qualify for &mdash; instantly, on your phone.</p>
+    <button id="startBtn" class="btn-primary">Check My Courses</button>
+    <p class="fine-print">Free &middot; No sign up &middot; No payment</p>
+  </div>
+</section>
+
+<!-- ================= FORM ================= -->
+<section id="formScreen" class="screen">
+  <div class="card">
+    <h2>Your Details</h2>
+    <label>Full Name</label>
+    <input type="text" id="nameInput" placeholder="e.g. Jane Wanjiku" required>
+
+    <label>KCSE Year</label>
+    <select id="yearInput">
+      <!-- populated by JS -->
+    </select>
+
+    <h3>Enter Your Grades</h3>
+    <p class="hint">Add every subject you sat. Leave the rest blank.</p>
+    <div id="subjectGrid" class="subject-grid"><!-- populated by JS --></div>
+
+    <button id="submitBtn" class="btn-primary">See My Courses</button>
+  </div>
+</section>
+
+<!-- ================= LOADING OVERLAY ================= -->
+<div id="loadingOverlay" class="overlay">
+  <div class="loader-box">
+    <div class="spinner"></div>
+    <p id="loadingText">Reading your grades...</p>
+  </div>
+</div>
+
+<!-- ================= RESULTS ================= -->
+<section id="resultsScreen" class="screen">
+  <div class="card">
+    <h2 id="resultsHeading">Your Results</h2>
+    <div id="resultsSummary"></div>
+    <div id="resultsList" class="results-list"></div>
+    <button id="downloadPdfBtn" class="btn-primary">Download PDF Report</button>
+    <button id="startOverBtn" class="btn-secondary">Check Again</button>
+  </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
