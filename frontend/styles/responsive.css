@@ -1,0 +1,20 @@
+/* Mobile-first breakpoints layered on top of main.css */
+
+@media (max-width: 860px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+  .feature-grid { grid-template-columns: 1fr; }
+  .summary-bar { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+}
+
+@media (max-width: 560px) {
+  .hero { padding: 56px 0 40px; }
+  .section { padding: 48px 0; }
+  .subject-row { grid-template-columns: 1fr 100px 34px; }
+  .wizard-shell { padding: 32px 16px 80px; }
+  .result-metrics { gap: 16px; }
+  .btn { width: 100%; }
+  .hero-actions .btn { width: auto; }
+  .hero-actions { width: 100%; }
+  .hero-actions .btn-primary { width: 100%; }
+}
