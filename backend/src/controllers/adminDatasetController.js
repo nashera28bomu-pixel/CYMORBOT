@@ -43,7 +43,7 @@ async function createDataset(req, res, next) {
   } catch (err) { next(err); }
 }
 
-async function uploadDocument(type) {
+function uploadDocument(type) {
   return async function (req, res, next) {
     try {
       const dataset = await Dataset.findById(req.params.id);
