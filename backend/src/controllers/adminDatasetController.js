@@ -125,7 +125,12 @@ async function createDataset(req, res, next) {
   } catch (err) { next(err); }
 }
 
-async function uploadDocument(type) {
+// NOTE: this outer function is a plain (non-async) factory — it must
+// return the inner handler function itself, not a Promise that resolves
+// to one. Marking it `async` here was the bug: Express received a
+// Promise instead of a callback, causing
+// "Route.post() requires a callback function but got a [object Promise]".
+function uploadDocument(type) {
   return async function (req, res, next) {
     try {
       const dataset = await Dataset.findById(req.params.id);
