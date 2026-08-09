@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Admin Login — Cymor KUCCPS Advisor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles/main.css">
+<link rel="stylesheet" href="../styles/responsive.css">
+</head>
+<body style="background:var(--navy-950); min-height:100vh; display:flex; align-items:center; justify-content:center;">
+
+<div class="card card-pad" style="width:100%; max-width:380px; margin:20px;">
+  <div class="brand" style="margin-bottom:22px;"><span class="brand-mark">C</span>Cymor Admin</div>
+  <h3 style="margin-bottom:6px;">Sign in</h3>
+  <p class="muted" style="margin-bottom:22px; font-size:0.9rem;">Manage KUCCPS datasets, imports, and programmes.</p>
+
+  <form id="login-form" class="stack">
+    <div>
+      <label class="muted" style="font-size:0.82rem;">Email</label>
+      <input type="email" id="email" required style="width:100%;padding:11px 12px;border-radius:8px;border:1.5px solid var(--border);margin-top:4px;" />
+    </div>
+    <div>
+      <label class="muted" style="font-size:0.82rem;">Password</label>
+      <input type="password" id="password" required style="width:100%;padding:11px 12px;border-radius:8px;border:1.5px solid var(--border);margin-top:4px;" />
+    </div>
+    <p class="form-error" id="login-error"></p>
+    <button class="btn btn-primary btn-block" type="submit" style="margin-top:6px;">Sign In</button>
+  </form>
+</div>
+
+<script>window.CYMOR_API_BASE_URL = 'http://localhost:5000';</script>
+<script src="../js/api.js"></script>
+<script src="../js/ui.js"></script>
+<script>
+document.getElementById('login-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const errorEl = document.getElementById('login-error');
+  clearError(errorEl);
+  try {
+    const data = await apiRequest('/admin/auth/login', {
+      method: 'POST',
+      body: JSON.stringify({
+        email: document.getElementById('email').value,
+        password: document.getElementById('password').value
+      })
+    });
+    localStorage.setItem('cymor_admin_token', data.token);
+    window.location.href = 'dashboard.html';
+  } catch (err) {
+    showError(errorEl, err.message);
+  }
+});
+</script>
+</body>
+</html>
