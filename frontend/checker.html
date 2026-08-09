@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Check My Courses — Cymor KUCCPS Advisor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">C</span>Cymor KUCCPS Advisor</a>
+    <div class="nav-links"><a href="index.html">Home</a></div>
+  </div>
+</nav>
+
+<main class="wizard-shell">
+
+  <!-- ===== STEP 1: GRADE ENTRY ===== -->
+  <section id="step-entry">
+    <div class="step-indicator">
+      <span class="eyebrow" id="step-label">Step 1 of 3</span>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:33%;"></div></div>
+    <h2 style="margin-bottom:8px;">Enter your KCSE subjects and grades</h2>
+    <p class="muted" style="margin-bottom:26px;">Mathematics and at least one language (English, Kiswahili, or KSL) are required. Add as many other subjects as you sat.</p>
+
+    <div class="card card-pad">
+      <div id="subject-rows"></div>
+      <button type="button" class="add-row-btn" id="add-subject-btn">+ Add another subject</button>
+      <p class="form-error" id="form-error"></p>
+    </div>
+
+    <div class="wizard-actions">
+      <span></span>
+      <button class="btn btn-primary" id="continue-btn">Continue</button>
+    </div>
+  </section>
+
+  <!-- ===== STEP 2: ANALYZING ===== -->
+  <section id="step-analyzing" class="hidden text-center">
+    <div class="step-indicator" style="justify-content:center;"><span class="eyebrow">Step 2 of 3</span></div>
+    <div class="progress-track"><div class="progress-fill" style="width:66%;"></div></div>
+    <h2>Analyzing your KCSE results…</h2>
+    <ul class="analyze-list" id="analyze-list">
+      <li data-step="0"><span class="tick">✓</span>Converting grades to points</li>
+      <li data-step="1"><span class="tick">✓</span>Selecting your 7 subjects</li>
+      <li data-step="2"><span class="tick">✓</span>Calculating aggregate points</li>
+      <li data-step="3"><span class="tick">✓</span>Determining mean grade</li>
+      <li data-step="4"><span class="tick">✓</span>Checking programme requirements</li>
+      <li data-step="5"><span class="tick">✓</span>Calculating weighted scores</li>
+      <li data-step="6"><span class="tick">✓</span>Comparing cutoff points</li>
+    </ul>
+  </section>
+
+  <!-- ===== STEP 3: RESULTS ===== -->
+  <section id="step-results" class="hidden">
+    <div class="step-indicator"><span class="eyebrow">Step 3 of 3</span></div>
+    <div class="progress-track"><div class="progress-fill" style="width:100%;"></div></div>
+    <h2 style="margin-bottom:6px;">Your Qualifying Courses</h2>
+    <p class="muted" style="margin-bottom:26px;">These are the programmes you qualify for based on your KCSE profile and the active KUCCPS dataset.</p>
+
+    <div class="summary-bar">
+      <div class="card summary-stat"><div class="label">Overall Mean Grade</div><div class="value" id="stat-mean-grade">—</div></div>
+      <div class="card summary-stat"><div class="label">7-Subject Aggregate</div><div class="value" id="stat-aggregate">—</div></div>
+      <div class="card summary-stat"><div class="label">Qualifying Programmes</div><div class="value" id="stat-count">—</div></div>
+    </div>
+
+    <div style="display:flex; justify-content:flex-end; gap:10px; margin-bottom:18px;">
+      <a class="btn btn-gold" id="download-pdf-btn" href="#" target="_blank">Download PDF Report</a>
+    </div>
+
+    <div id="results-list"></div>
+
+    <div id="empty-state" class="card empty-state hidden">
+      <div class="icon">🔎</div>
+      <h3>No qualifying programmes found</h3>
+      <p class="muted" style="max-width:44ch; margin:10px auto 20px;">None of the programmes in the active dataset currently satisfy both the minimum subject requirements and the latest cutoff for the grades you entered.</p>
+      <button class="btn btn-ghost" id="review-grades-btn">Review my grades</button>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== COURSE DETAIL MODAL ===== -->
+<div id="course-modal" class="modal-backdrop hidden">
+  <div class="modal-sheet">
+    <button class="modal-close" id="modal-close-btn">×</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Cymor KUCCPS Advisor is an independent educational guidance tool and is not affiliated with KUCCPS.</p>
+    <p>Built by Legendary Smiley Cymor</p>
+  </div>
+</footer>
+
+<script>window.CYMOR_API_BASE_URL = 'http://localhost:5000';</script>
+<script src="js/api.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/checker.js"></script>
+</body>
+</html>
