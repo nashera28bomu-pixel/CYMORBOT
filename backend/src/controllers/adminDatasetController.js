@@ -1,10 +1,92 @@
 const Dataset = require('../models/Dataset');
 const SourceDocument = require('../models/SourceDocument');
 const Programme = require('../models/Programme');
+const AdminUser = require('../models/AdminUser');
+const bcrypt = require('bcryptjs');
 const { saveBuffer, readBuffer, checksum } = require('../services/storageService');
 const { parseCutoffsPdf } = require('../importers/cutoffsPdfParser');
 const { buildDataset } = require('../importers/buildDataset');
 const clustersRawFallback = require('../data/clusters_raw.json');
+const bundledDataset = require('../data/dataset.json');
+
+/**
+ * Browser-triggerable seed route for mobile-only / no-shell-access
+ * deployments (Render free tier has no shell). Loads the bundled real
+ * KUCCPS dataset (data/dataset.json) into MongoDB as the active
+ * 2025/2026 dataset and creates the first admin user, entirely over
+ * HTTP. Protected by a shared secret (ADMIN_SEED_KEY env var) rather
+ * than a JWT, since no admin user exists yet the first time this runs.
+ *
+ * Usage: GET /api/admin/seed?key=YOUR_ADMIN_SEED_KEY
+ *        GET /api/admin/seed?key=YOUR_ADMIN_SEED_KEY&force=true  (re-seed)
+ */
+async function seedFromBundledData(req, res, next) {
+  try {
+    const providedKey = req.query.key;
+    const expectedKey = process.env.ADMIN_SEED_KEY;
+    if (!expectedKey) {
+      return res.status(500).json({ success: false, error: { code: 'SEED_KEY_NOT_CONFIGURED', message: 'ADMIN_SEED_KEY is not set on the server. Add it in your Render environment variables first.' } });
+    }
+    if (!providedKey || providedKey !== expectedKey) {
+      return res.status(401).json({ success: false, error: { code: 'INVALID_SEED_KEY', message: 'Missing or incorrect ?key= value.' } });
+    }
+
+    const force = req.query.force === 'true';
+    const existingActive = await Dataset.findOne({ status: 'active' });
+    if (existingActive && !force) {
+      return res.json({
+        success: true,
+        data: {
+          message: 'A dataset is already active — nothing changed. Add &force=true to the URL to wipe and reseed.',
+          academicYear: existingActive.academicYear,
+          importedProgrammeCount: existingActive.importedProgrammeCount
+        }
+      });
+    }
+
+    if (existingActive && force) {
+      await Programme.deleteMany({ datasetId: existingActive._id });
+      await Dataset.updateMany({ status: 'active' }, { status: 'archived' });
+    }
+
+    const dataset = await Dataset.create({
+      academicYear: '2025/2026',
+      status: 'active',
+      activatedAt: new Date(),
+      importedProgrammeCount: bundledDataset.importedProgrammeCount,
+      recordsWithCutoffData: bundledDataset.recordsWithCutoffData,
+      recordsRequiringReview: bundledDataset.recordsRequiringReview,
+      validationWarnings: bundledDataset.validationWarnings.slice(0, 500),
+      validationErrors: bundledDataset.validationErrors.slice(0, 500)
+    });
+
+    const docs = bundledDataset.programmes.map(p => ({ ...p, datasetId: dataset._id }));
+    const CHUNK = 500;
+    for (let i = 0; i < docs.length; i += CHUNK) {
+      await Programme.insertMany(docs.slice(i, i + CHUNK));
+    }
+
+    const adminEmail = (process.env.ADMIN_EMAIL || 'admin@cymor.dev').toLowerCase();
+    let adminCreated = false;
+    const existingAdmin = await AdminUser.findOne({ email: adminEmail });
+    if (!existingAdmin) {
+      const passwordHash = await bcrypt.hash(process.env.ADMIN_PASSWORD || 'ChangeMe123!', 10);
+      await AdminUser.create({ email: adminEmail, passwordHash, role: 'superadmin', name: 'Legendary Smiley Cymor' });
+      adminCreated = true;
+    }
+
+    res.json({
+      success: true,
+      data: {
+        message: 'Seed complete.',
+        academicYear: dataset.academicYear,
+        importedProgrammeCount: docs.length,
+        adminEmail,
+        adminUserCreated: adminCreated
+      }
+    });
+  } catch (err) { next(err); }
+}
 
 async function dashboard(req, res, next) {
   try {
@@ -43,7 +125,7 @@ async function createDataset(req, res, next) {
   } catch (err) { next(err); }
 }
 
-function uploadDocument(type) {
+async function uploadDocument(type) {
   return async function (req, res, next) {
     try {
       const dataset = await Dataset.findById(req.params.id);
@@ -194,5 +276,5 @@ async function listProgrammes(req, res, next) {
 
 module.exports = {
   dashboard, listDatasets, createDataset, uploadDocument, processImport,
-  validationPreview, activateDataset, archiveDataset, listProgrammes
+  validationPreview, activateDataset, archiveDataset, listProgrammes, seedFromBundledData
 };
