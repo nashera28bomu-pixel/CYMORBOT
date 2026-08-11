@@ -1,25 +1,40 @@
 const mongoose = require('mongoose');
 
-const SubjectSlotSchema = new mongoose.Schema({
+const GroupReferenceSchema = new mongoose.Schema({
+  groupName: String,
+  ordinal: Number
+}, { _id: false });
+
+const ClusterSubjectSlotSchema = new mongoose.Schema({
   slot: Number,
   raw: String,
   resolvedSubjects: [String],
-  resolved: Boolean
+  resolved: Boolean,
+  groupReference: GroupReferenceSchema
 }, { _id: false });
 
 const SubjectMinimumSchema = new mongoose.Schema({
   raw: String,
-  resolvedSubjects: [String],
+  type: { type: String, enum: ['subjects', 'group', 'unparseable'] },
   resolved: Boolean,
+  resolvedSubjects: [String],
+  groupReference: GroupReferenceSchema,
   minimumGrade: String
 }, { _id: false });
 
 const RequirementSchema = new mongoose.Schema({
   cluster: String,
   subCluster: String,
-  subjectSlots: [SubjectSlotSchema],
+  // The literal 4-subject weighted-cluster definition used for the r/S
+  // formula — only populated when the source data actually defines it
+  // for this programme's cluster (see clusterRequirementParser.js).
+  clusterSubjectSlots: [ClusterSubjectSlotSchema],
+  clusterSubjectSlotsResolved: Boolean,
+  unresolvedGroupReferences: [String],
+  // The minimum subject-grade pass/fail requirements — a separate check
+  // from the weighted cluster score.
   subjectMinimums: [SubjectMinimumSchema],
-  unresolvedGroupReferences: [String]
+  unresolvedMinimumSegments: [String]
 }, { _id: false });
 
 const CutoffYearSchema = new mongoose.Schema({
