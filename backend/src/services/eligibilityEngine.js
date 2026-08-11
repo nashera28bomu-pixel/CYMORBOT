@@ -1,108 +1,78 @@
 const { computeSevenSubjectAggregate } = require('../utils/aggregate');
-const { computeWeightedClusterScore, computeR, roundForDisplay } = require('../utils/clusterScore');
-const { gradeToPoints } = require('../utils/gradePoints');
+const { roundForDisplay } = require('../utils/clusterScore');
+const { evaluateProgrammeRequirements } = require('./requirementEvaluator');
+const { computeClusterScoreForProgramme } = require('./clusterScoreCalculator');
 
 /**
- * Checks whether the student satisfies a programme's minimum subject
- * requirements (as far as they were resolvable from the source document).
- * Unresolved requirement slots are skipped (never silently invented) and
- * recorded so the result can be explained transparently.
- */
-function checkMinimumRequirements(studentSubjects, requirement) {
-  const pointsBySubject = {};
-  for (const s of studentSubjects) {
-    const key = String(s.subject).trim().toUpperCase();
-    pointsBySubject[key] = Math.max(pointsBySubject[key] || 0, gradeToPoints(s.grade));
-  }
-
-  const failures = [];
-  const skipped = [];
-
-  for (const min of (requirement.subjectMinimums || [])) {
-    if (!min.resolved || min.resolvedSubjects.length === 0) {
-      skipped.push(min.raw);
-      continue;
-    }
-    const bestPoints = Math.max(
-      0,
-      ...min.resolvedSubjects.map(s => pointsBySubject[s] || 0)
-    );
-    const requiredPoints = gradeToPoints(min.minimumGrade);
-    if (bestPoints < requiredPoints) {
-      failures.push({ subject: min.raw, required: min.minimumGrade, achievedPoints: bestPoints });
-    }
-  }
-
-  return { passed: failures.length === 0, failures, skippedRequirements: skipped };
-}
-
-/**
- * Runs the full pipeline for a single programme against a student's
- * profile (which already has the 7-subject aggregate computed).
+ * Runs the full pipeline for a single programme, in the exact order the
+ * project's qualification rules require:
+ *   1. Check minimum subject requirements (requirementEvaluator.js).
+ *      If they fail or can't be confirmed -> NOT qualified. Stop here;
+ *      never compute a cluster score for a programme that hasn't passed
+ *      its minimum requirements.
+ *   2. Compute the programme-specific weighted cluster score
+ *      (clusterScoreCalculator.js). If the programme's cluster subjects
+ *      can't be resolved from the dataset -> NOT qualified (no fallback
+ *      score is ever substituted).
+ *   3. Compare the learner's score against the programme's latest
+ *      cutoff. Only score >= cutoff counts as qualified.
  */
 function evaluateProgramme(studentSubjects, aggregate, programme) {
-  const requirement = programme.requirement || { subjectSlots: [], subjectMinimums: [] };
-
-  const reqCheck = checkMinimumRequirements(studentSubjects, requirement);
-  if (!reqCheck.passed) {
-    return { qualifies: false, reason: 'MINIMUM_REQUIREMENTS_NOT_MET', details: reqCheck };
-  }
-
-  const resolvedSlots = requirement.subjectSlots
-    .filter(s => s.resolved)
-    .map(s => s.resolvedSubjects);
-
-  // Fall back to the student's best 4 subjects if the programme's cluster
-  // subjects could not be resolved from the source document, and clearly
-  // flag the result as approximate.
-  let r;
-  let approximate = false;
-  if (resolvedSlots.length === 4) {
-    r = computeR(studentSubjects, resolvedSlots);
-  } else {
-    approximate = true;
-    const sorted = [...studentSubjects]
-      .map(s => ({ subject: s.subject, points: gradeToPoints(s.grade) }))
-      .sort((a, b) => b.points - a.points)
-      .slice(0, 4);
-    r = sorted.reduce((sum, s) => sum + s.points, 0);
-  }
-
-  const t = aggregate.totalPoints;
-  const learnerScore = computeWeightedClusterScore(r, t);
-
-  const latestCutoff = programme.latestCutoff ? programme.latestCutoff.score : null;
-  if (latestCutoff === null) {
+  const reqResult = evaluateProgrammeRequirements(programme, studentSubjects);
+  if (!reqResult.qualified) {
     return {
       qualifies: false,
-      reason: 'NO_CUTOFF_DATA',
-      details: { learnerScore: roundForDisplay(learnerScore), approximate }
+      reason: reqResult.requirementsFailed.length ? 'MINIMUM_REQUIREMENTS_NOT_MET' : 'REQUIREMENTS_UNRESOLVED',
+      details: reqResult
     };
   }
 
-  const margin = learnerScore - latestCutoff;
-  const qualifies = learnerScore >= latestCutoff;
+  const clusterResult = computeClusterScoreForProgramme(programme, reqResult.resolvedSubjects, studentSubjects, aggregate);
+  if (!clusterResult.resolved) {
+    return {
+      qualifies: false,
+      reason: 'CLUSTER_SCORE_UNRESOLVED',
+      details: { ...clusterResult, requirementCheck: reqResult }
+    };
+  }
+
+  const latestCutoff = programme.latestCutoff ? programme.latestCutoff.score : null;
+  if (latestCutoff === null || latestCutoff === undefined) {
+    return {
+      qualifies: false,
+      reason: 'NO_CUTOFF_DATA',
+      details: { learnerScore: roundForDisplay(clusterResult.score), requirementCheck: reqResult }
+    };
+  }
+
+  const margin = clusterResult.score - latestCutoff;
+  const qualifies = clusterResult.score >= latestCutoff;
 
   return {
     qualifies,
     reason: qualifies ? 'QUALIFIED' : 'BELOW_CUTOFF',
     details: {
-      r,
-      t,
-      learnerScore,
+      r: clusterResult.r,
+      t: clusterResult.t,
+      learnerScore: clusterResult.score,
+      subjectsUsed: clusterResult.subjectsUsed,
+      scoreSource: clusterResult.scoreSource,
       latestCutoff,
       latestCutoffYear: programme.latestCutoff.year,
       margin,
-      approximate,
-      skippedRequirements: reqCheck.skippedRequirements
+      requirementCheck: reqResult
     }
   };
 }
 
 /**
  * Full pipeline: given student subjects and the active dataset's
- * programme list, return only the qualifying programmes, ranked by
- * strongest positive margin, capped at `limit`.
+ * programme list, return only genuinely qualified programmes.
+ *
+ * Sort order (per project requirement): highest latest cutoff first —
+ * the report should lead with the most competitive qualified
+ * programmes, not the biggest margin. Ties broken by learner score,
+ * then margin, then name, for a fully deterministic order.
  */
 function runEligibilityPipeline(studentSubjects, programmes, { limit = 100 } = {}) {
   const aggregate = computeSevenSubjectAggregate(studentSubjects);
@@ -118,13 +88,20 @@ function runEligibilityPipeline(studentSubjects, programmes, { limit = 100 } = {
         latestCutoff: evalResult.details.latestCutoff,
         latestCutoffYear: evalResult.details.latestCutoffYear,
         learnerScore: roundForDisplay(evalResult.details.learnerScore),
-        margin: roundForDisplay(evalResult.details.margin),
-        approximate: evalResult.details.approximate
+        margin: roundForDisplay(evalResult.details.margin)
       });
     }
   }
 
-  results.sort((a, b) => b.margin - a.margin);
+  results.sort((a, b) => {
+    if (b.latestCutoff !== a.latestCutoff) return b.latestCutoff - a.latestCutoff;
+    if (b.learnerScore !== a.learnerScore) return b.learnerScore - a.learnerScore;
+    if (b.margin !== a.margin) return b.margin - a.margin;
+    const nameCmp = a.programmeName.localeCompare(b.programmeName);
+    if (nameCmp !== 0) return nameCmp;
+    return a.institutionName.localeCompare(b.institutionName);
+  });
+
   const top = results.slice(0, limit).map((r, idx) => ({ rank: idx + 1, ...r }));
 
   return {
@@ -139,4 +116,4 @@ function runEligibilityPipeline(studentSubjects, programmes, { limit = 100 } = {
   };
 }
 
-module.exports = { checkMinimumRequirements, evaluateProgramme, runEligibilityPipeline };
+module.exports = { evaluateProgramme, runEligibilityPipeline };
