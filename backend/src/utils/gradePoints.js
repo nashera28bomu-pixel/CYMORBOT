@@ -23,21 +23,28 @@ function gradeToPoints(grade) {
 }
 
 /**
- * Convert a mean points value (0-12, may be fractional) back to the nearest
- * KCSE mean grade. Uses standard rounding down to the nearest whole point
- * band as KNEC does (mean grade takes the grade of the floor of the mean
- * points, except at the boundaries).
+ * Convert a mean points value (0-12, may be fractional) back to the
+ * nearest KCSE mean grade, using standard round-to-nearest banding (each
+ * grade band is centered on its integer point value; ties round up).
+ *
+ * Example: 81/84 = 11.571... rounds to 12 -> "A" (NOT "A-", which was a
+ * bug in an earlier version of this function that used Math.floor and
+ * therefore always rounded DOWN a full grade band on any fractional
+ * mean, e.g. incorrectly turning an 11.57 mean into A- instead of A).
  */
 function pointsToMeanGrade(meanPoints) {
   if (meanPoints === null || meanPoints === undefined || Number.isNaN(meanPoints)) return null;
-  const floored = Math.floor(meanPoints);
-  const clamped = Math.max(1, Math.min(12, floored));
+  const rounded = Math.round(meanPoints);
+  const clamped = Math.max(1, Math.min(12, rounded));
   return POINTS_TO_GRADE[clamped];
 }
+
+// Spec-friendly alias — same authoritative function, no duplicated logic.
+const calculateOverallMeanGrade = pointsToMeanGrade;
 
 function isValidGrade(grade) {
   if (!grade) return false;
   return ORDERED_GRADES.includes(String(grade).trim().toUpperCase());
 }
 
-module.exports = { GRADE_TO_POINTS, POINTS_TO_GRADE, ORDERED_GRADES, gradeToPoints, pointsToMeanGrade, isValidGrade };
+module.exports = { GRADE_TO_POINTS, POINTS_TO_GRADE, ORDERED_GRADES, gradeToPoints, pointsToMeanGrade, calculateOverallMeanGrade, isValidGrade };

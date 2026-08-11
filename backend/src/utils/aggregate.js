@@ -61,4 +61,4 @@ function computeSevenSubjectAggregate(subjects) {
   return { selectedSubjects, totalPoints, meanPoints, meanGrade };
 }
 
-module.exports = { computeSevenSubjectAggregate, LANGUAGE_SUBJECTS, MATH_SUBJECT };
+module.exports = { computeSevenSubjectAggregate, calculate7SubjectAggregate: computeSevenSubjectAggregate, LANGUAGE_SUBJECTS, MATH_SUBJECT };
